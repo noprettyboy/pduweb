@@ -1,0 +1,16 @@
+<div class="conf">
+  <fieldset>
+    <legend>{{=it.dlconf}}</legend>
+    <a href="conf/conf.ini" class="btn full" target="_blank">
+      {{=it.dlconffile}}
+    </a>
+  </fieldset>
+  <fieldset>
+    <legend>{{=it.Uploadconf}}</legend>
+    <form action="xhrfwconfigpost.jsp" method="post" enctype="multipart/form-data">
+      <input type="file" name="filename" class="fileUpload" multiple />
+      <button id="px-submit" name="uploadblk" type="submit">{{=it.upload}}</button>
+      <script type="text/javascript">EL.UploadCfg.init("config")</script>
+    </form>
+  </fieldset>
+</div>

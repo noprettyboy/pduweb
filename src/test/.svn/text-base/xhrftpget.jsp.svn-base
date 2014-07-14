@@ -1,0 +1,1 @@
+{"ftpport":22,"chkftpacs":0}

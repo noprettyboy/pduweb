@@ -1,0 +1,1 @@
+{"chkuserblocking":0,"maxnumfailedlogins":5,"blocktimeout":2,"idletimeout":20}

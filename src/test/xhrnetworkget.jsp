@@ -1,0 +1,1 @@
+{"ipautoconfiguration":0,"ipaddress":"192.168.1.88","netmask":"255.255.255.1","gateway":"255.255.255.1","dnschk":1,"dns1":"192.168.1.84","dns2":"255.255.0.1","dnssuffix":"map.baidu.com"}

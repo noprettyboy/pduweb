@@ -1,0 +1,27 @@
+<form id="frresetDev"> {{=it.doresetcard}} <form>
+
+<!--
+<div id="resetDeviceDialog" class="hide">
+	<p style="padding: 2px 3px;">
+    The device will be reset in a few seconds.
+  </p>
+  <p style="padding: 2px 3px;">
+      You will be redirected to the login page within <span id="spSecondsAtResetDev"></span> seconds.
+  </p>
+  <p style="padding: 2px 3px;">
+      If redirection does not work, use <a href="#" id="aredirect" style="color:blue">this link</a> to the login page.
+  </p>
+</div>
+
+<div id="divResetDevHelp" class="hide">
+  Selecting "Yes" will reset the network management device.
+  During the reboot process, this device will not respond to any requests;
+  however,
+  this will not affect the outlet power state (all outlets will remain in their current on/off state).
+  <br/>
+  <br/>
+  Selecting "No" will cancel this action.
+</div>
+-->
+
+<script type="text/javascript">EL.ResetDevice.init()</script>

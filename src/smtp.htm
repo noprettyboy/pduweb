@@ -1,0 +1,81 @@
+<div id="SMTPholder">
+	<form id="frsmtpone" class="formular formvalo" method="post">		
+	<fieldset>
+    <legend>{{=it.serverset}}</legend>
+    <div>
+		<div class="gengap">
+			<div class="pwpolicy1l">{{=it.servername}}:</div>
+			<div class="usern2r"><input class="i2" type="text" name="txtServerName" id="txtServerName"></div>
+            <div class="clear"></div>
+		</div>
+		<div class="gengap">
+			<div class="pwpolicy1l">{{=it.port}}:</div>
+			<div class="usern2r"><input class="i2" value="25" type="text" name="txtPort" id="txtPort"/></div>
+            <div class="clear"></div>
+		</div>
+		<div class="gengap">
+			<div class="pwpolicy1l">{{=it.sendemail}}:</div>
+			<div class="usern2r"><input class="i2" value="" type="text" name="txtSenderEmailAddress" id="txtSenderEmailAddress"/></div>
+            <div class="clear"></div>
+		</div>
+		<div class="gengap">
+			<div class="pwpolicy1l">{{=it.numsend}}:</div>
+			<div class="usern2r"><input class="i2" value="2" type="text" name="txtsendingretryscount" id="txtNumberofSendingRetries" /></div>
+            <div class="clear"></div>
+		</div>
+		<div class="gengap">
+			<div class="pwpolicy1l">{{=it.intervalsend}}:</div>
+			<div class="usern2r"><input class="i2" value="2" type="text" name="txtTimeIntervalforRetries" id="txtTimeIntervalforRetries"/></div>
+            <div class="clear"></div>
+		</div>
+		<div class="gengap">
+			<div class="pwpolicy1l">{{=it.serverreq}}</div>
+			<div class="usern2r" align="center"><input type="checkbox" name="serverauth" id="chkRequiredAuth" value="enable"/></div>
+            <div class="clear"></div>			
+		</div>
+		<div class="gengap">
+			<div class="pwpolicy1l">{{=it.username}}:</div>
+			<div class="usern2r"><input class="i2" value="" type="text" name="txtUserNameSMTP" id="txtUserNameSMTP"/></div>
+            <div class="clear"></div>
+		</div>
+		<div class="gengap">
+			<div class="pwpolicy1l">{{=it.password}}:</div>
+			<div class="usern2r"><input class="i2" value="" type="password" name="txtpassword" id="txtPasswordSMTP"/></div>
+            <div class="clear"></div>
+		</div>
+	</div>       
+    </fieldset>
+	<div class="gengap">
+    	<fieldset>
+            <legend>{{=it.smtpset}}</legend>
+            <div>
+                <div class="gengap">
+                    <div class="pwpolicy1l">{{=it.recemail}}:</div>
+                    <div class="usern2r"><input class="i2" value="" type="text" name="txtrecipientemail" id="txtRecipientEmailAddress"/></div>
+                </div>
+                <div class="gengap">
+                    <div class="pwpolicy1l">&nbsp;</div>
+                    <div class="usern2r">
+                    	<div class="gengap">
+                        <input class="btn" type="button" value="{{=it.testemail}}" id="btnSendTestEmailSMTP"/></div>
+                        </div>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    </form>
+</div>
+
+<div id="errordialog_send" style="display:none;">
+	<div class="Ch-btns">
+		<span id="spnSmtpSend"></span>
+	</div>
+</div>
+
+<div id="errordialog_result" style="display:none;">
+	<div class="Ch-btns">
+		<span id="spnSmtpResult"></span>
+	</div>
+</div>
+
+<script type="text/javascript">EL.SMTP()</script>

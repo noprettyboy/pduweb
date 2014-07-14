@@ -1,0 +1,1 @@
+{"ldapebst":128,"ldaphost":"new","ldapport":389,"ldapauth":"zzwaa"}

@@ -1,0 +1,5 @@
+/* 
+  Custom sprite defination for combine images;
+*/
+
+/** sprite: spritepng; sprite-image: url('img/s.png'); sprite-layout: vertical; sprite-margin-bottom:40px; */

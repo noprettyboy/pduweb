@@ -1,0 +1,1 @@
+{"iphostname":"172.16.189.124","chkenpingmonitoring":true,"noofpingstoenfeature":15,"unsuccessfulpingfailure":5,"resumeping":180}

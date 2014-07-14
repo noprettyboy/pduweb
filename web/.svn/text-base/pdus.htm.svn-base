@@ -1,0 +1,1 @@
+<div class="pdu grid-b"> <table id="pduproperty" class="easyui-propertygrid"></table> <script type="text/javascript">EL.PDUS().init();</script> </div>

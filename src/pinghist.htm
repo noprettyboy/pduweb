@@ -1,0 +1,22 @@
+<div id="PingNwHostHolder">
+  <fieldset>
+    <legend>Ping Settings</legend>
+    <form id="frpingHist" class="formvalo formline">
+      <label for="txthostname">Host Name:</label>
+      <input type="text" name="txthostname" id="txthostname" />
+      <label for="txtNoofRequests">Number of Requests:</label>
+      <input type="text" name="NoofRequests" id="txtNoofRequests" value="4" />
+    </form>
+  </fieldset>
+  <fieldset class="cmd">
+    <legend>Ping Result</legend>
+    <pre id="pingresult" style="height: 124px; overflow: auto" >
+    </pre>
+  </fieldset>
+</div>
+
+<div id="pingHistResultsDialog" style="display:none;">
+	<pre id="gdPingResults" class="cmd"></pre>
+</div>
+
+<script type="text/javascript">EL.Ping()</script>

@@ -1,0 +1,1 @@
+{"pduid":1,"id":1,"cblowcritical":0,"lowcritical":2049000,"cblowwarning":0,"lowwarning":2055000,"cbupwarning":1,"upwarning":2080000,"cbupcritical":0,"upcritical":2100000,"threshold":5000,"delay":10}

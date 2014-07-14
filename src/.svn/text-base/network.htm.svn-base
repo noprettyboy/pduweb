@@ -1,0 +1,316 @@
+<div id="tabNetworkConfiguration" class="network">
+  <form id="frnetwork" class="formvalo" method="Post">
+    <ul>
+      <!-- 
+      <li><a href="#InterfaceSettings">Interface Settings</a></li>
+      -->
+      <li><a href="#IPProtocol">{{=it.ipprotocol}}</a></li>
+      <li><a href="#IPv4Settings">{{=it.ipv4set}}</a></li>
+      <!--
+      <li><a href="#IPv6Settings">IPv6 Settings</a></li>
+      -->
+    </ul>
+
+    <!--
+    <div id="InterfaceSettings">
+      <div>
+      <div class="gengap">
+        <div class="net1l">Network Interface:</div>
+        <div class="net1r">
+          <select class="s4" id="drpNetworkInterface">        
+            <option value="wired" selected="selected" disabled="disabled">Wired</option>
+          </select>
+        </div>
+        <div class="clear"></div>
+      </div>
+      </div> 
+
+      <div id="wired" style="display: block;">
+        <div>
+          <div class="gengap">
+            <div class="net1l">Speed:</div>
+            <div class="net1r">
+              <select class="s4" id="drpSpeedAtNetwork">        
+                <option value="auto" selected="selected">Auto</option>         
+                <option value="10mbits">10 Mbit/s</option>         
+                <option value="100mbits">100 Mbit/s</option>                          
+              </select>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net1l"> Duplex:</div>
+            <div class="net1r"><select class="s4" id="drpDuplexAtNetwork" >        
+              <option value="auto" selected="selected">Auto</option>         
+              <option value="full">Full</option>         
+              <option value="half">Half</option>                           
+            </select> </div>
+            <div class="clear"></div>
+          </div>
+
+          <div class="gengap">
+            <div class="net1l">Current State:</div>
+            <div class="net1r" id="currState">100Mbit/s,Full Duplex, Link Ok,Autonegotiation on</div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <div id="psk" style="display: none;">
+      <div>
+        <div class="gengap">
+        <div class="net1l">Pre-Shared Key:</div>
+        <div class="net1r"><input class="i3" type="text" name="txtPreSharedKey" id="txtPreSharedKey"/></div>
+                <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="eap-peap" style="display: none;">
+      <div>
+        <div class="gengap">
+          <div class="net1l">Inner Authentication:</div>
+          <div class="net1r"><select class="s4" id="drpInnerAuthentication" >        
+                      <option value="MSCHAPv2" selected="selected">MSCHAPv2</option>    
+                    </select></div>
+                <div class="clear"></div>
+        </div>
+        <div class="gengap">
+          <div class="net1l">Identity:</div>
+          <div class="net1r"><input class="i3" type="text" id="txtIdentity" name="txtIdentity"/></div>
+                <div class="clear"></div>
+        </div>
+        <div class="gengap">
+          <div class="net1l">Password:</div>
+          <div class="net1r"><input class="i3" type="Password" id="txtPassword"/></div>
+                <div class="clear"></div>
+        </div>
+        <div class="gengap">
+          <div class="net1l">CA Certificate</div>
+          <div class="net1r">
+                  <div>
+                    <label id="lbCertificateStatus">not set</label>
+                    </div>
+              <div align="right" style="padding-right:20px;">
+              <input type="button" id="btnShowInterfaceSettings" value="Show"/>
+              <input type="button" id="btnRemoveInterfaceSettings" value="Remove"/>
+                    </div>
+          </div>
+                <div class="clear"></div>
+        </div>
+        <div class="gengap">
+          <div class="net1l">&nbsp;</div>
+          <div class="net1r">
+                  <input type="file" id="btnRemoveInterfaceSettings"  value="select new certificate..."/>
+          </div>
+                <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <div id="IPProtocol">
+      <div class="User-box">
+        <div class="Ch-btns">
+          <div class="Chpannel-1">{{=it.ipprotocol}}:</div>
+          <div class="Chpannel-1">
+            <div class="Chpannel-1">
+              <div class="ldiv">
+                <input type="radio" id="rdIPv4" name="ipProtocol" checked="checked" value="ipv4"/>
+              </div>
+              {{=it.ipv4only}}
+            </div>
+            <div class="Chpannel-1">
+              <div class="ldiv">
+                <input type="radio" id="rdIPv6" name="ipProtocol" value="ipv6"/>
+              </div>
+              {{=it.ipv6only}}
+            </div>
+            <div class="Chpannel-1">
+              <div class="ldiv">
+                <input type="radio" id="rdIPv4andIPv6" name="ipProtocol" value="both"/>
+              </div>
+              {{=it.ipv46}}
+            </div>
+          </div>
+        </div>
+        <div class="Ch-btns">
+          <div class="Chpannel-1">{{=it.dnsresolve}} <br> {{=it.preference}}:</div>
+          <div class="Chpannel-1">
+            <div class="Chpannel-1">
+              <div class="ldiv">
+                <input type="radio" id="rdIPv4Address" name="dnsResolver" checked="checked"/>
+              </div>
+              {{=it.ipv4address}}
+            </div>
+            <div class="Chpannel-1">
+              <div class="ldiv">
+                <input type="radio" id="rdIPv6Address" name="dnsResolver"/>
+              </div>
+              {{=it.ipv6address}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="IPv4Settings">
+      <div>
+        <div class="gengap">
+          <div class="net1l">{{=it.ipautoconfig}}:</div>
+          <div class="net1r">
+            <select class="s4" name="toolkits" id="drpIPAutoconfiguration" >
+              <option value="0">Static</option>
+              <option value="1" selected="selected">DHCP</option>         
+            </select>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div id="ipv4Static">
+          <div class="gengap">
+            <div class="net2l">{{=it.ipaddress}}:</div>
+            <div class="net1r"><input class="i3" type="text" name="txtIPAddressIPV4" id="txtIPAddressIPV4"/></div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">{{=it.netmask}}:</div>
+            <div class="net1r"><input class="i3" type="text"  name="txtNetmaskIPV4" id="txtNetmaskIPV4"/></div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">{{=it.gateway}}:</div>
+            <div class="net1r"> <input class="i3" type="text" name="txtGatewayIPV4" id="txtGatewayIPV4"/></div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <!-- DNS -->
+        <div>
+          <div class="gengap" id="enableDNS">
+            <div class="net2l">{{=it.specficdns}}:</div>
+            <div class="net1r">
+              <input class="i3" type="checkbox" name="txDNSCHK" id="txDNSCHK" />
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">{{=it.primarydns}}:</div>
+            <div class="net1r">
+              <input class="i3" type="text" name="txPrimaryDNSServerIPV4" id="txPrimaryDNSServerIPV4" />
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">{{=it.secondarydns}}:</div>
+            <div class="net1r">
+              <input class="i3" type="text" name="txSecondaryDNSServerIPV4" id="txtSecondaryDNSServerIPV4" />
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">{{=it.dnssuffix}}:</div>
+            <div class="net1r">
+              <input class="i3" type="text" name="txtDNSSuffixIPv4" id="txtDNSSuffixIPv4" />
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+    <div id="IPv6Settings">
+      <div>
+        <div class="gengap">
+          <div class="net2l">IP Auto Configuration:</div>
+          <div class="net1r">
+            <select class="s4" name="toolkits" id="drpIPAutoconfigurationIPv6" >
+              <option value="static" >Static</option>
+              <option value="automatic" selected="selected">Automatic</option>            
+            </select>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+
+      <div id="ipv6Automatic">
+        <div>
+          <div class="gengap">
+            <div class="net2l">Preferred Hostname:</div>
+            <div class="net1r"><input class="i3" type="text"  name="txtPreferredHostnameIPv6" id="txtPreferredHostnameIPv6" /></div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">Specify DNS Server <br> Manually:</div>
+            <div class="net1r" align="center"><input type="checkbox" id="chkEnableDNSServerIPv6"/></div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">Primary DNS Server:</div>
+            <div class="net1r"><input class="i3" type="text"  name="txtPrimaryDNSServerIPv6Auto" id="txtPrimaryDNSServerIPv6Auto" /></div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">Secondary DNS Server:</div>
+            <div class="net1r"><input class="i3" type="text" name="txtSecondaryDNSServerIPv6Auto" id="txtSecondaryDNSServerIPv6Auto" /></div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">DNS Suffix(Optional):</div>
+            <div class="net1r"><input class="i3" type="text" name="txtDNSSuffixIPv6Auto" id="txtDNSSuffixIPv6Auto"/></div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+      <div id="ipv6Static">
+        <div>
+          <div class="gengap">
+            <div class="net2l">IP Address:</div>
+            <div class="net1r"><input class="i3" type="text" name="txtIPAddressIPv6Static" id="txtIPAddressIPv6Static" /></div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">Gateway:</div>
+            <div class="net1r"><input class="i3" type="text" name="txtGatewayIPv6Static" id="txtGatewayIPv6Static" /></div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">Primary DNS Server:</div>
+            <div class="net1r"> <input class="i3" type="text" name="txPrimaryDNSServerIPv6Static" id="txPrimaryDNSServerIPv6Static" /></div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">Secondary DNS Server:</div>
+            <div class="net1r"> <input class="i3" type="text" name="txtSecondaryDNSServerIPv6Static" id="txtSecondaryDNSServerIPv6Static"/></div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="net2l">DNS Suffix(Optional):</div>
+            <div class="net1r"><input class="i3" type="text" name="txtDNSSuffixIPv6Static" id="txtDNSSuffixIPv6Static"/></div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+  </form>
+</div>
+
+<div id="confirmIPSettingsChangeDialog" style="display:none;" class="network">
+  <div class="Ch-btns">
+    <!-- <img src="images/icon-question.png" alt="Info" align="left" style="padding:0 10px 0 0;"/> -->
+    <img class="icon-ipset"  src="" alt="Info" align="left" style="padding:0 10px 0 0;"/>
+        <p style="padding:0px 5px;">
+        After changing IP settings, your device may not be responsive any more. You will need to reload this page, or navigate to the new device address and login again.
+        </p>
+        <p style="padding:5px;">
+        Do you really want to apply changes now?
+        </p>
+  </div>
+</div>
+
+<div id="configurationChangedDialog" style="display:none; min-height::60px;">
+    The new network settings have been applied successfully. Reload this page, or navigate to the new device address and login again.        
+</div>
+
+<script type="text/javascript">EL.Network()</script>

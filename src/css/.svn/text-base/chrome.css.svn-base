@@ -1,0 +1,49 @@
+.chromestyle:after{
+  content:".";
+  display:block;height:0;clear:both;visibility:hidden
+}
+.chromestyle ul{width:72px;height:27px;display:block;padding:3px 0 0 0;margin:0}
+.chromestyle ul li{display:inline-block;border:0; font-size:12px}
+.chromestyle ul li a {
+  color: #FFF;
+  display: block;
+  padding: 0 7px;
+  text-decoration: none;
+  width: 46px;
+}
+.chromestyle ul li a:hover,.chromestyle ul li a.selected{display:block;color:#fff}
+.dropmenudiv{
+  position:absolute;top:0;right:0;border:1px solid #b5e2fe;
+  border-bottom-width:0;font:normal 11px Arial;line-height:18px;
+  z-index:100;background-color:white;width:200px;visibility:hidden
+}
+
+.dropmenudiv a{
+  border-bottom: 1px solid #B5E2FE;
+  color: black;
+  display: block;
+  height: 14px;
+  line-height: 14px;
+  padding: 5px 5px 5px 24px;
+  text-decoration: none;
+  text-indent: 3px;
+  width: 100%;
+}
+
+.dropmenudiv li:hover{
+  /*background: url(../images/MenuBgHover.gif) center repeat-x;*/
+  background-repeat: repeat-x;
+  background-position: center;
+  background-image: url(../images/MenuBgHover.gif);   /** sprite-ref: spritepng; sprite-alignment: repeat; */
+}
+
+.chromestyle .menu-arr-down{
+  /*
+  background-position: 0 4px;
+  */
+  display: block;
+  float: right;
+  height: 16px;
+  margin: 4px 0 2px 5px;
+  width: 12px;
+}

@@ -1,0 +1,50 @@
+[
+{
+ "phase" : 1,
+ "reading": 26500,
+ "status": 1,
+ "capacity": 5500,
+ "lowcritical": 0,
+ "lowwarning": 30000,
+ "upwarning": 60000,
+ "upcritical": 80000,
+ "cblowcritical": 0,
+ "cblowwarning": 0,
+ "cbupwarning": 1,
+ "cbupcritical": 1,
+ "curlimit" : 16000,
+ "vollimit" : 220000
+},
+{
+ "phase" : 2,
+ "reading": 26500,
+ "status": 1,
+ "capacity": 5500,
+ "lowcritical": 0,
+ "lowwarning": 30000,
+ "upwarning": 60000,
+ "upcritical": 80000,
+ "cblowcritical": 0,
+ "cblowwarning": 0,
+ "cbupwarning": 1,
+ "cbupcritical": 1,
+ "curlimit" : 32000,
+ "vollimit" : 400000
+ },
+{
+ "phase" : 3,
+ "reading": 26500,
+ "status": 1,
+ "capacity": 5530,
+ "lowcritical": 0,
+ "lowwarning": 30500,
+ "upwarning": 63000,
+ "upcritical": 84000,
+ "cblowcritical": 0,
+ "cblowwarning": 0,
+ "cbupwarning": 1,
+ "cbupcritical": 1,
+ "curlimit" : 32000,
+ "vollimit" : 400000
+ }
+]

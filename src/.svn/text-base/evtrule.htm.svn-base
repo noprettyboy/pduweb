@@ -1,0 +1,19 @@
+<div class="evtrule grid-b">
+  <fieldset>
+    <legend>{{=it.eventset}}</legend>
+    <div class="evttree"></div>
+  </fieldset>
+  <fieldset>
+    <legend>{{=it.selectrule}}</legend>
+    <div class="evtgrid"></div>
+  </fieldset>
+  <div class="users">
+    <fieldset>
+      <legend>
+        {{=it.smtpreceive}}
+      </legend>
+      <div class="usercb"></div>
+    </fieldset>
+  </div>
+  <script type="text/javascript">EL.EventRule()</script>
+</div>

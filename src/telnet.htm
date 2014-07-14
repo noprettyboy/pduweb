@@ -1,0 +1,17 @@
+<div id="Telnet_Holdings">
+  <form id="frtelnet" class="formvalo" method="post">
+    <div class="Telnet_Form" id="tTelnet">
+      <div class="gengap">
+        <div class="http1l">{{=it.telnetport}}:</div>
+        <div class="rolen1r"><input type="text" class="i1"name="Tel_Port" id="Tel_Port" /></div>
+        <div class="clear"></div>
+      </div>
+      <div class="gengap">
+        <div class="http1l">&nbsp;</div>
+        <div class="rolen1r"><input type="checkbox" id="chkEnableSSH" /> &nbsp; {{=it.enabletelnet}}</div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </form>
+  <script type="text/javascript">EL.Telnet()</script>
+</div>

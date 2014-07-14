@@ -1,0 +1,1 @@
+{"pwdaginginterval":525600,"minpwdlen":8,"maxpwdlen":32,"pswpolicy":31}

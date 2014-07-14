@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/pduweb/!svn/ver/1/src/test/dashboard2
+END
+xhrpduvoltageget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pduweb/!svn/ver/1/src/test/dashboard2/xhrpduvoltageget.jsp
+END
+xhrpducurrentget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pduweb/!svn/ver/1/src/test/dashboard2/xhrpducurrentget.jsp
+END
+xhrpdustatusget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/pduweb/!svn/ver/1/src/test/dashboard2/xhrpdustatusget.jsp
+END
+xhrpduenergyget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/pduweb/!svn/ver/1/src/test/dashboard2/xhrpduenergyget.jsp
+END
+xhrpdulist.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pduweb/!svn/ver/1/src/test/dashboard2/xhrpdulist.jsp
+END

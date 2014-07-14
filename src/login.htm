@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=9" />
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="css/prod.css" />
+  <link rel="shortcut icon" href="" />
+</head>
+
+<body class="grad-b grad-login">
+
+  <!--[if lt IE 8]>
+  <div class="centerbox hide">
+    This application does not support this browser, please choose a modern one.
+  </div>
+  <![endif]-->
+
+  <!-- Mask Layer -->
+  <div id="maskingDiv" class="mask" style="z-index: 20000;">
+    <div class="loader">
+      <div></div>
+    </div>
+  </div>
+
+  <div id="login" class="hide"> 
+    <form id="frlogin" class="formval" method="POST">
+      <ul>
+        <li>
+          <label id="loginmsg" class="error" style="display:none"></label>
+        </li>
+        <li>
+          <label for="username">{{=it.username}}:</label>
+          <input type="text" name="username" id="username" />
+        </li>
+        <li>
+          <label for="password">{{=it.password}}:</label>
+          <input type="password" name="password" id="password" />
+        </li>
+      </ul>
+      <!--
+      <input type="submit" value="Submit" name="submit" class="submit" />
+      -->
+    </form>
+  </div>
+
+  <!-- Scripts for debug -->
+  <script type="text/javascript" src="js/prod.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+{"pduid":1,"powstat":4,"outlet1":32767,"outlet2":0}

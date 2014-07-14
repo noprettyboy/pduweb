@@ -1,0 +1,4 @@
+<div id="FirmwareUpdateHistory" class="grid-b">
+  <div id="gdfmupdatehistory"></div>
+  <script type="text/javascript">EL.UpdateHistory.init();</script>
+</div>

@@ -1,0 +1,1 @@
+{"username":"kris","fullname":"long","password":"--------","telenum":"","email":"","chkenable":false,"frpasschk":false,"snmpchk":false,"drpsecuritylevel":0,"chkpasswordauth":true,"txtauthpassphrase":"","chkprivacyauth":true,"txtprivacypassphrase":"","authalgor":0,"privalgor":0,"rolename":"admin","temperature":0}

@@ -1,0 +1,1020 @@
+/*
+Global style
+*/
+body{
+  font-size:12px;
+}
+
+html, body{
+  overflow:hidden;
+}
+
+.grad-login{
+  background:#E2EFFE;
+}
+
+.disp{
+  display:none;
+}
+
+.opacityElement {
+  filter:alpha(opacity=10);  // IE
+  -moz-opacity:0.1;          // Firefox
+  -khtml-opacity: 0.1;
+  opacity: 0.6;
+}
+
+.selected{
+  display:none;
+}
+
+img a{
+  border:none;
+}
+
+.hidden{
+  display: none;
+}
+
+
+/*
+* generic style
+*/
+.hide,
+.form-cols2 label.hide,
+.formval label.hide
+{
+  display:none;
+}
+
+.clear{
+  clear: both;
+}
+
+.gridwrap{
+  height:100%;
+  width:100%;
+}
+
+.btn{
+  background: none repeat scroll 0 0 #EFFFFD;
+  border: 1px solid #A4D2FF !important;
+  border-radius: 0.4em;
+  color: #2E6E9E !important;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  margin: 0 0.2em;
+  padding: 0.2em 1em;
+  text-decoration: none;
+}
+
+/*like a*/
+.btn.disable,
+.btn.disable:hover,
+/*button on the dialog*/
+.btn.locked,
+.btn.locked:hover,
+.ui-widget-content input.locked,
+.ui-widget-content button.locked
+{
+  /*background: url("../images/locked.png") no-repeat scroll 3px 1px #DEDEDE;*/
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 3px 1px;
+  background-color: #DEDEDE;
+  background-image: url("../images/locked.png");    /**  sprite-ref:  spritepng;  sprite-margin-left: 3px;  sprite-margin-top:  1px; */
+  padding-left: 18px;
+}
+
+/*locked a layer*/
+.locklayer{
+  filter:alpha(opacity=15);
+  opacity: 0.15;
+  background-color: #000;
+  display: none;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+#roleHolder{
+  position: relative;
+}
+
+.btn:hover{
+  background: #dfeffc;
+}
+
+
+.btn.full{
+  display: block;
+  margin: 0 0 10px;
+  padding: 1em;
+  text-align: center;
+  width: auto;
+}
+
+.bottom{
+  position: absolute;
+  bottom: -32px;
+  visibility: hidden;
+}
+
+.bottom input{
+
+}
+
+/*the bottom container only displayed in the dialog box*/
+.ui-dialog .bottom{
+  visibility: visible;
+}
+
+/*Fixed tab*/
+.ui-dialog .ui-tabs .ui-tabs-nav li.ui-tabs-selected{
+  top: 2px;
+}
+
+/*
+* roles module
+*/
+.roles{
+  height: 100%;
+}
+.editrole .ui-tabs-panel{
+  height: 340px;
+}
+.privirole{
+  width:auto;
+  min-height:396px;
+}
+.privirole .coll,
+.privirole .colr{
+  width: 320px;
+  float: left;
+  margin: 2px 2px 22px;
+  height: 348px;
+}
+.privirole .colr{
+  float: none;
+  margin-left: 330px;
+}
+
+
+/*
+View data log
+*/
+.viewlog{
+  height: 100%;
+}
+
+.txtLog{
+  width:100%;
+  min-height:354px;
+  overflow:scroll;
+  background: #eee;
+}
+
+/*
+dash board related
+*/
+.itemlist{
+  font-size: 12px;
+  min-height: 104px;
+  padding: 0;
+}
+
+.itemlist.haslist{
+  margin-left: 160px;
+}
+
+.item{
+  /*
+  background: none repeat scroll 0 0 #7190E0;
+  */
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  width: 25%;
+}
+.item h3{
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-bottom: 1px solid #99BBE8;
+  color: #15428B;
+  font-size: 12px;
+  padding: 4px 10px;
+}
+.item .body{
+  background: none #F0F0F0;
+  border: 2px solid #2998D7;
+  margin: 4px 0 8px 8px;
+  min-height: 90px;
+  text-indent: 0.4em;
+}
+.item:first-child .body{
+  margin-left:0;
+}
+
+.item p{
+  padding: 4px 10px;
+}
+
+.item h3{
+  background-image: -webkit-gradient(linear, left top, left bottom, from( #ffffff /*{c-bup-background-start}*/), to( #f1f1f1 /*{c-bup-background-end}*/)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient( #ffffff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+  background-image:    -moz-linear-gradient( #ffffff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* FF3.6 */
+  background-image:     -ms-linear-gradient( #ffffff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* IE10 */
+  background-image:      -o-linear-gradient( #ffffff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/); /* Opera 11.10+ */
+  background-image:         linear-gradient( #ffffff /*{c-bup-background-start}*/, #f1f1f1 /*{c-bup-background-end}*/);
+}
+
+/*Tab content*/
+.tabc
+{
+  min-width: 1110px;
+}
+
+.extsensor{
+  min-width: 1380px;
+}
+
+.dashboard, .outlets{
+  min-width: 810px;
+  padding-right: 5px;
+}
+
+.dashboard .datagrid-body{
+  overflow: hidden;
+}
+
+.dashboard .datagrid-body td{
+  height: 26px;
+}
+
+.dashboard .datagrid-header,
+.dashboard .panel-body,
+.dashboard .datagrid-header td
+{
+  border-bottom: medium none;
+  border-left: medium none;
+  border-top: medium none;
+}
+
+.dashboard .gridlist{
+  border:2px solid #2998D7;
+  margin-bottom: 8px;
+}
+
+.dashboard .datagrid-body td{
+  border-left:none;
+  border-top:none;
+}
+
+.dashboard .datagrid-cell{
+  text-indent: 0.8em;
+}
+
+/*
+datagrid blue themes
+*/
+.grid-b .datagrid-header{
+  background-image: -webkit-gradient(linear, left top, left bottom, from( #2998D7 /*{b-bar-background-start}*/), to( #0780C7 /*{b-bar-background-end}*/)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient( #2998D7 /*{b-bar-background-start}*/, #0780C7 /*{b-bar-background-end}*/); /* Chrome 10+, Saf5.1+ */
+  background-image:    -moz-linear-gradient( #2998D7 /*{b-bar-background-start}*/, #0780C7 /*{b-bar-background-end}*/); /* FF3.6 */
+  background-image:     -ms-linear-gradient( #2998D7 /*{b-bar-background-start}*/, #0780C7 /*{b-bar-background-end}*/); /* IE10 */
+  background-image:      -o-linear-gradient( #2998D7 /*{b-bar-background-start}*/, #0780C7 /*{b-bar-background-end}*/); /* Opera 11.10+ */
+  background-image:         linear-gradient( #2998D7 /*{b-bar-background-start}*/, #0780C7 /*{b-bar-background-end}*/);
+  background: #2998D7;
+}
+.grid-b .datagrid-header{
+  font-weight: 700;
+}
+.grid-b .datagrid-header td{
+  background: none transparent;
+  color: #fff;
+}
+.grid-b .datagrid-body{
+  background: #fff;
+}
+.grid-b .datagrid-body .datagrid-cell{
+  line-height: 26px;
+}
+
+/*fix bug for propertygrid on Chrome*/
+.outlet .datagrid-body, .pdu .datagrid-body{
+  overflow-x: hidden;
+}
+
+.datagrid-header-check input, .datagrid-cell-check input{
+  vertical-align: bottom;
+}
+
+/* disable input */
+.disable,
+.disabled,
+form .disable,
+form .disabled
+{
+  background: #eee;
+}
+
+/*
+form with two columns
+*/
+.form-cols2{
+  margin: 6px 0;
+}
+.form-cols2 ul{
+  margin: 0 10px;
+  padding: 0;
+}
+
+
+.form-cols2 ul li,
+.formval ul li
+{
+  list-style: none;
+  margin: 0.6em 0;
+}
+
+.form-cols2 label{
+  width: 50%;
+}
+
+.form-cols2 #abound label{
+  width: 55%;
+}
+
+.form-cols2 #abound label.error{
+  width: auto;
+}
+
+.form-cols2 input[type="text"],
+.form-cols2 input[type="password"],
+.form-cols2 select,
+.formval input
+{
+  border: solid 1px #999;
+  height: 16px;
+  width: 160px;
+}
+
+.formval input[type="checkbox"]
+{
+  background: none;
+  border: none;
+  height: 14px;
+}
+
+.form-cols2 input.nocb,
+.form-cols2 select.nocb
+{
+  width: 176px;
+}
+
+.form-cols2 label.error,
+.formval label.error
+{
+  /*background: url("../images/cross.gif") no-repeat scroll 5px 2px #FFFFFF;*/
+  background-repeat: no-repeat;
+  background-position: 5px 2px;
+  background-attachment: scroll;
+  background-color: #FFFFFF;
+  background-image: url("../images/cross.gif");   /**  sprite-ref:  spritepng;  sprite-margin-left: 5px;  sprite-margin-top: 2px; */
+  border: 1px solid #999999;
+  display: block;
+  float: none;
+  line-height: 18px;
+  margin: 6px 0 7px;
+  padding: 0 4px 0 26px;
+  text-indent: 0;
+  width: 346px;
+}
+
+.form-cols2 #aswitch label,
+.form-cols2 #aenable label
+{
+  margin: 0 20px 5px 0;
+  text-align: right;
+  width: 38%;
+}
+
+.form-cols2 #aswitch span{
+  text-indent: 1em;
+}
+
+.formval label{
+  display: block;
+  float: none;
+  text-indent: 1em;
+}
+
+.formval input,
+.formval select
+{
+  float: right;
+  margin:-19px 6px 0 0;
+  padding:1px 2px;
+}
+
+.formval select{
+  width: 167px;
+  border: 1px solid #999999;
+}
+
+.formval label.error{
+  margin: 0.6em;
+  width: auto;
+}
+
+.formval fieldset ul{
+  padding: 0;
+}
+
+.formval fieldset li{
+  float: none;
+  width: auto;
+  padding: 0;
+  margin: 0.6em 0;
+  height: auto;
+}
+
+.formval legend input{
+  float: none;
+  margin: 0.2em 0.4em 0;
+  width: auto;
+}
+
+.formval li .btn{
+  clear: both;
+  float: right;
+  margin: 0.4em;
+  padding: 0.2em 1em;
+  text-align: center;
+  width: auto;
+}
+
+/*form validation for old layout*/
+.formvalo label.error {
+  /*background: url("../images/cross.gif") no-repeat scroll 2px 0 transparent;*/
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 2px 0px;
+  background-color: transparent;
+  background-image: url("../images/cross.gif");   /**  sprite-ref:  spritepng;  sprite-margin-left: 2px; */
+  cursor: pointer;
+  display: block;
+  float: right;
+  height: 16px;
+  line-height: 18px;
+  overflow: hidden;
+  text-indent: 9999px;
+  white-space: nowrap;
+  width: 16px;
+}
+
+/*form validation for float layout*/
+.formvalf label.error{
+  /*background: url("../images/valid-error.png") no-repeat scroll 0 0 transparent;*/
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-image: url("../images/valid-error.png");   /**  sprite-ref:  spritepng;  */
+  color: #000;
+  height: 24px;
+  line-height: 24px;
+  margin: -4px 0 0 2px;
+  overflow: hidden;
+  padding: 0 4px;
+  position: absolute;
+  text-indent: 38px;
+  white-space: nowrap;
+  width: 8px;
+}
+
+.formvalf label.error:hover{
+  overflow: visible;
+  width: auto;
+}
+
+/*form inline: element is in one line*/
+.formline{
+  margin-bottom: 10px;
+}
+
+.formline label
+{
+  float: none;
+  margin:0 10px;
+}
+
+/*
+layout fix.
+*/
+.ui-layout-pane{
+  overflow: hidden;
+}
+
+.ui-layout-center{
+  border:1px solid #0680c6;
+  float: left;
+  width:100%;
+}
+
+.grid-b .gridtable table,
+.grid-b th,
+.grid-b td{
+  padding:0;
+}
+
+.grid-b .datagrid-toolbar{
+  padding: 6px 10px;
+}
+
+.grid-b .datagrid-toolbar label{
+  line-height: 24px;
+  margin: 0 10px 0 0;
+}
+.grid-b .datagrid-toolbar select{
+  margin: 0 10px;
+  width: 200px;
+}
+
+
+/*
+custom theme
+*/
+.grad-b .ui-widget-overlay{
+  background-image: -webkit-gradient(linear, left top, left bottom, from( #AEC4DB), to( #000 )); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient( #AEC4DB /*{c-bup-background-start}*/, #000 /*{c-bup-background-end}*/); /* Chrome 10+, Saf5.1+ */
+  background-image:    -moz-linear-gradient( #AEC4DB /*{c-bup-background-start}*/, #000 /*{c-bup-background-end}*/); /* FF3.6 */
+  background-image:     -ms-linear-gradient( #AEC4DB /*{c-bup-background-start}*/, #000 /*{c-bup-background-end}*/); /* IE10 */
+  background-image:      -o-linear-gradient( #AEC4DB /*{c-bup-background-start}*/, #000 /*{c-bup-background-end}*/); /* Opera 11.10+ */
+  background-image:         linear-gradient( #AEC4DB /*{c-bup-background-start}*/, #000 /*{c-bup-background-end}*/);
+
+  filter:alpha(opacity=30);
+  opacity: 0.3;
+}
+
+.grad-b .ui-dialog{
+  box-shadow: 0 4px 8px #333;  
+}
+
+.center .ui-tabs{
+  border: none;
+  height: 100%;
+  padding: 0;
+}
+
+.center .ui-tabs .ui-tabs-panel{
+  border: none;
+  clear: left;
+  min-height: 205px;
+  overflow: auto;
+}
+
+.center .ui-tabs #tabdashboard{
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+
+.center .ui-tabs .ui-tabs-nav{
+  border-bottom: 1px solid #4297D7;
+  border-left: none;
+  border-radius: 0;
+  border-right: none;
+  border-top: none;
+  padding: 5px 5px 5px 20px;
+  height: 21px;
+  min-width: 1280px;
+}
+
+.center .ui-tabs .ui-tabs-nav li{
+  margin: 0 0.4em 1px 0;
+  top: 0;
+}
+
+.center .ui-tabs .ui-tabs-nav li.ui-tabs-selected{
+  top: 2px;
+}
+
+.center .ui-tabs .ui-tabs-nav li a {
+  color: #06659C;
+}
+
+.center .ui-icon{
+  background-image: url("images/icons241.png");   /**  sprite-ref:  spritepng; */
+}
+/*.ui-icon .ui-icon-close{
+  background-image: url("images/icons241.png");
+}*/
+/*.ui-dialog-titlebar-close{
+  background-repeat: no-repeat;
+  background-image: url("images/icons242.png");   
+}*/
+
+.center .ui-icon-close{
+  cursor: pointer;
+  float: left;
+  margin: 4px 10px 0 0;
+}
+
+/*Login page*/
+#login .submit{
+  visibility: hidden;
+  height: 1px;
+  width:1px;
+}
+
+/*Fix bug of the tree;*/
+.tree .tree-title {
+  padding: 0 4px 2px;
+}
+
+.lay .combobox-item-hover{
+  background: #D0E5F5;
+}
+
+.alarm{
+  display: block;
+  height:100%;
+  text-align: center;
+  width:100%;
+}
+
+.outlets .alarm
+,.propertygrid .alarm
+,#tabdashboard .alarm
+{
+  text-align: left;
+  text-indent: 0.4em;
+}
+
+.alarm-lowercritical
+,.alarm-uppercritical
+,.alarm-off
+,.alarm-alarm
+,.alarm-alarmed
+{
+  color:#f00 !important;
+  font-weight: 700;
+}
+
+.alarm-lowerwarning
+,.alarm-upperwarning
+{
+  color:#FF8000 !important;
+  font-weight: 700;
+}
+
+.outlets .alarm{
+  display: inline;
+  background: transparent;
+}
+
+.outlets .combo{
+  margin: 0 1em;
+}
+
+
+/*Datetime*/
+#datetimeholder .dt1l{
+  width:163px
+}
+
+#frdate #dpDateTime{
+  float: left;
+}
+
+#frdate .ui-datepicker-trigger{
+  float: left;
+}
+
+
+.loader{
+  background: #C1E2F2;
+  filter: alpha(opacity=30);
+  opacity: 0.3;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 800;
+}
+
+.loader > div{
+  /*background: url("../images/loading.gif") no-repeat;*/
+  background-repeat: no-repeat;
+  background-image: url("../images/loading.gif");   /**  sprite-ref:  spritepng; */
+  height: 100px;
+  left: 45%;
+  position: absolute;
+  top: 40%;
+  width: 100px;
+}
+
+
+.reports{
+  line-height: 24px;
+}
+
+.serreach .formval input{
+  height: auto;
+  width: 200px;
+}
+
+.cmd{
+  padding: 1em;
+}
+
+/*
+devince infomation from india's team
+*/
+.frdevinfo #tabDeviceInformation {
+  height: 435px;
+  border:none; color: #434950;
+}
+.frdevinfo #PDUinformation{
+  padding-left:18px;
+}
+.frdevinfo .ui-tabs .ui-tabs-panel {
+  height: 380px;
+}
+.frdevinfo .tabs-bottom {
+  position: relative;
+}
+.frdevinfo .tabs-bottom .ui-tabs-panel {
+  height: 450px;  
+}
+.frdevinfo .tabs-bottom .ui-tabs-nav {
+  position: absolute !important;
+  left: 0;
+  bottom: 0;
+  right:0;
+  padding: 0 0.2em 0.2em 0;
+}
+.frdevinfo .tabs-bottom .ui-tabs-nav li {
+  margin-top: -2px !important;
+  margin-bottom: 1px !important;
+  border-top: none;
+  border-bottom-width: 1px;
+}
+
+#frpwpolicy > .gengap{
+  margin: 0 0 20px 0;
+}
+
+/*
+Configuration download
+*/
+.conf fieldset{
+  border: 1px solid #A4D2FF;
+}
+
+.conf fieldset li{
+  width: auto;
+}
+
+.ips{
+  min-width: 1120px
+}
+
+.ips .panel{
+  margin-bottom: 24px;
+}
+
+.evtrule{
+  height: 100%;
+}
+
+/*
+clear the fieldset style
+*/
+.evtrule > fieldset li{
+  float: none;
+  height: auto;
+  margin: 0;
+  padding-bottom: 0;
+  width: auto;
+}
+
+.evtrule > fieldset:first-child {
+  background: #fff;
+  float: left;
+  width: 276px;
+}
+
+.evtrule > fieldset {
+  display: inline-block;
+  float: right;
+  height: 360px;
+  width: 586px;
+}
+
+.evtrule .evttree{
+  height: 342px;
+  overflow: auto;
+  width: 276px;
+}
+
+.evtrule .datagrid{
+  height: 344px;
+  background: #fff;
+}
+
+.evtrule .users{
+  float: left;
+  width: 100%;
+  margin-bottom:10px
+}
+
+.evtrule .users fieldset{
+  background: #fff;
+  height: 62px;
+}
+
+.evtrule .disabled{
+  background: none repeat scroll 0 0 #CCC;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+  height: 12px;
+  margin: 2px;
+  width: 12px;
+}
+
+/*Uploader*/
+.progressbar {
+  margin: 1em 0;
+}
+
+.progressbar-value{
+  line-height: 22px
+}
+
+/*smtp*/
+#SMTPholder{
+  height:100% !important;
+}
+
+/* network configuration */
+#tabNetworkConfiguration.network {
+  border:none;
+} 
+.network{
+  border:none;
+}
+.network .ui-tabs-panel {
+  height:300px;
+}
+.network .tabs-bottom {
+  position: relative;
+} 
+.network .tabs-bottom .ui-tabs-panel {
+  height:400px;
+  overflow: auto;
+} 
+.network .tabs-bottom .ui-tabs-nav {
+  position: absolute !important;
+  left: 0;
+  bottom: 0;
+  right:0;
+  padding: 0 0.2em 0.2em 0;
+} 
+.network .tabs-bottom .ui-tabs-nav li {
+  margin-top: -2px !important;
+  margin-bottom: 1px !important;
+  border-top: none;
+  border-bottom-width: 1px;
+}
+.network .displayNone{
+  border:none;
+  display:none
+}
+
+.alertdlg,
+.confirmdlg
+{
+  min-height: 38px;
+}
+
+.alertdlg h3,
+.confirmdlg h3
+{
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.ajaxerrdlg .ui-dialog-titlebar-close{
+  display: none;
+}
+
+/*dialog that cannot be closed*/
+.forcedlg .ui-dialog-titlebar-close,
+.forcedlg #btnCancel,
+.forcedlg #btnClose,
+.forcedlg .actions
+{
+  visibility: hidden;
+}
+
+.edituser .ui-tabs-panel{
+  min-height: 310px;
+}
+
+.edituser #roles .datagrid-header-check input{
+  display: none;
+}
+
+/*current time: Need to fix the current time color in datepicker? */
+.ui-datepicker-calendar .ui-state-highlight{
+  /*background: url("images/bglass85.png") repeat-x scroll 50% 50% #DFEFFC;*/
+  background-repeat: repeat-x;
+  background-position: 50% 50%;
+  background-color: #DFEFFC;
+  background-attachment: scroll;
+  background-image: url("images/bglass85.png");   /**  sprite-ref:  spritepng;  sprite-alignment: repeat; */
+  border: 1px solid #A4D2FF;
+  color: #2E6E9E;
+}
+
+.centerbox{
+  background: #000;
+  color: #fff;
+  position: relative;
+  padding: 1em;
+  margin: 10% auto 0;
+  width: 200px;
+  z-index: 10000;
+}
+
+#taboutlet,
+#tabpdus
+{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#tabSNMPSettings { 
+  min-height: 306px;
+  border:none;
+} 
+#tabSNMPSettings .ui-tabs .ui-tabs-panel { 
+  min-height:306px;
+}
+#tabSNMPSettings .tabs-bottom { 
+  position: relative;
+} 
+#tabSNMPSettings .tabs-bottom .ui-tabs-panel {
+  min-height: 400px;
+  overflow: auto;
+}
+#tabSNMPSettings .tabs-bottom .ui-tabs-nav {
+  position: absolute !important;
+  left: 0;
+  bottom: 0;
+  right:0;
+  padding: 0 0.2em 0.2em 0;
+} 
+#tabSNMPSettings .tabs-bottom .ui-tabs-nav li {
+  margin-top: -2px !important;
+  margin-bottom: 1px !important;
+  border-top: none;
+  border-bottom-width: 1px;
+}
+
+#tabSslCert {
+  height:auto;
+  border:none;
+}
+#tabSslCert .ui-tabs{
+  border:none;
+}
+#tabSslCert .ui-tabs .ui-tabs-panel {
+  height: 398px;
+}
+#tabSslCert .tabs-bottom {
+  position: relative;
+} 
+#tabSslCert .tabs-bottom .ui-tabs-panel {
+  height: auto;
+  overflow: auto;
+}
+#tabSslCert .tabs-bottom .ui-tabs-nav {
+  position: absolute !important;
+  left: 0;
+  bottom: 0;
+  right:0;
+  padding: 0 0.2em 0.2em 0;
+} 
+#tabSslCert .tabs-bottom .ui-tabs-nav li {
+  margin-top: -2px !important;
+  margin-bottom: 1px !important;
+  border-top: none;
+  border-bottom-width: 1px;
+}
+#tabSslCert fieldset{
+  padding:6px;
+  border:1px solid #aaa;
+}

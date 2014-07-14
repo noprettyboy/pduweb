@@ -1,0 +1,7 @@
+﻿<div class="circuitcontainer grid-b tabc">
+  <table id="circuitgrid" singleSelect="true"></table>
+</div>
+
+<script type="text/javascript">EL.CircuitBreak().init();</script>
+
+

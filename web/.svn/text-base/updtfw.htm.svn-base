@@ -1,0 +1,1 @@
+<form action="xhrfwfilepost.jsp" method="post" enctype="multipart/form-data"> <input type="file" name="filename" class="fileUpload" multiple/> <button id="px-submit" name="uploadfm" type="submit">{{=it.upload}}</button> <script type="text/javascript">EL.UploadCfg.init()</script> </form>

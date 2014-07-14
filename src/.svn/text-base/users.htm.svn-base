@@ -1,0 +1,141 @@
+
+<div class="grid-b">
+<!-- User Grid  -->
+<div id="userGridHolder">
+  <form id="frusers">
+    <div id="gdUser"></div>
+    <div class="bottom">
+      <input type="button" class="btn" value="{{=it.news}}" id="btnNewUser"/>
+      <input type="button" class="btn" value="{{=it.edits}}" id="btnEditUser" style="margin:0 5px;"/>
+      <input type="button" class="btn" value="{{=it.deletes}}" id="btnDeleteUser"/> 
+      <input type="hidden" class="btn" value="" id="userCount"/>
+    </div>
+  </form>
+</div>
+
+<!-- Create New User Popup  --> 
+<div id="tabCreateNewUser" class="edituser" style="display:none">
+  <form id="frCreateNewUser">
+    <ul>
+      <li><a href="#settings"><span style="padding: 0px 4px;">{{=it.setting}}</span></a></li>
+      <li><a href="#snmpv3"><span style="padding: 0px 4px;">{{=it.snmpv3}}</span></a></li>
+      <li><a href="#roles"><span style="padding: 0px 4px;">{{=it.roles}}</span></a></li>
+      <li><a href="#preferences">{{=it.preferences}}</a></li> 
+    </ul>
+    <!-- Settings Tab -->
+    <div id="settings" class="formval">
+      <ul>
+        <li>
+          <label>{{=it.username}}:</label>
+          <input class="fmtx1" type="text" name="username" id="username" value=""/>
+        </li>
+        <li>
+          <label>{{=it.fullname}}:</label>
+          <input  class="fmtx1" type="text" name="fullname" id="fullname" value=""/>
+        </li>
+        <li>
+          <label>{{=it.password}}:</label>
+          <input  class="fmtx1" type="password" name="password" id="password" value=""/>
+        </li>
+        <li>
+          <label>{{=it.cfpassword}}:</label>
+          <input  class="fmtx1" type="password" name="cnfpassword" id="cnfpassword" value=""/>
+        </li>    
+        <li>
+          <label>{{=it.telnumber}}:</label>
+          <input class="fmtx1" type="text" name="telenum" id="telenum" value=""/>
+        </li>
+        <li>
+          <label>{{=it.emailaddress}}:</label>
+          <input  class="fmtx1" type="text" name="email" id="email"/>
+        </li>    
+        <li>
+          <label>{{=it.enabled}}:</label>
+          <input type="checkbox" name="chkenable" id="chkenable"/>
+        </li>
+        <li>
+          <label>{{=it.forcepwchntlg}}:</label>
+          <input type="checkbox" name="frpasschk" id="frpasschk"/>
+        </li>
+      </ul>
+    </div>
+    <!-- SNMP V3 Tab --> 
+    <div id="snmpv3" class="formval">
+      <ul>
+        <li>
+          <label>{{=it.enablesnmpacc}}:</label>
+          <input type="checkbox" name="snmpchk" id="chkEnableSNMPAccess"/>
+        </li>
+        <li>
+          <label>{{=it.securitylevel}}:</label>
+          <select class="s3" name="securitylvl" id="drpSecurityLevel">
+            <option value="0">NoAuthNoPriv</option>
+            <option value="1">AuthNoPriv</option>
+            <option value="3" selected="selected">AuthPriv</option>        
+          </select>
+        </li>
+        <li>
+          <label>{{=it.usepwasauthpass}}:</label>
+          <input type="checkbox" checked='checked' name="authpasschk" id="chkPasswordAuth"/>
+        </li>
+        <li>
+          <label>{{=it.authpass}}:</label>
+          <input class="fmtx2" type="password" name="authpassphrase" id="txtAuthPassPhrase" value=""/>
+        </li>
+        <li>
+          <label>{{=it.cfauthpass}}:</label>
+          <input class="fmtx2" type="password" name="cfmauthpassphrase" id="txtConfirmAuthPassPhrase" value=""/>
+        </li>
+        <li>
+          <label>{{=it.useauthaspri}}:</label>
+          <input type="checkbox" checked='checked' name="authprivacypasschk" id="chkPrivacyAuth"/>
+        </li>
+        <li>
+          <label>{{=it.pripass}}:</label>
+          <input class="fmtx2" type="password" name="privacypassphrase" id="txtPrivacyPassPhrase" value=""/>
+        </li>
+        <li>
+          <label>{{=it.cfpripass}}:</label>
+          <input class="fmtx2" type="password" name="cfmprivacypassphrase" id="txtConfirmPrivacyPassPhrase" value=""/>
+        </li>
+        <li>
+          <label>{{=it.authalgorithm}}: </label>
+          <select name="authalgor" id="authalgor">
+            <option value="0">MD5</option>
+            <option value="1">SHA</option>
+          </select>
+        </li>
+        <li>
+          <label>{{=it.prialgorithm}}: </label>
+          <select name="privalgor" id="privalgor">
+            <option value="0">AES</option>
+            <option value="1">AES-192</option>
+            <option value="2">AES-256</option>
+          </select>
+        </li>
+      </ul>
+    </div>
+    <!-- Roles Tab --> 
+    <div id="roles" class="grid-b">
+      <div id="roleHolder">
+        <div id="gdRoleinUser"></div>
+        <div class="locklayer"></div>
+      </div>
+    </div>
+    <!-- Preferences Tab -->
+    <div id="preferences" class="formval">
+      <ul>
+        <li>
+          <label>{{=it.temperatureunit}}:</label>
+          <select class="s3" name="authproto" id="authproto">
+            <option value="0" selected="selected">&deg;C</option>
+            <option value="1">&deg;F</option>
+          </select>
+        </li>
+      </ul>
+    </div>
+  </form>
+</div>
+
+<script type="text/javascript">EL.User()</script>
+</div>

@@ -1,0 +1,1 @@
+{"servername":"server4","port":25,"senderemail":"justin.luo@enlogic.com","nosendingretries":4,"timeintervalforretries":6,"chkreqauth":1,"username":"juju","password":"12345678"}

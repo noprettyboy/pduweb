@@ -1,0 +1,14 @@
+<div id="usbHolder">
+  <form id="frusb" method="post">
+    <div>
+      <div class="gengap">
+        <div class="http1l">{{=it.usb}}: </div>
+        <div class="rolen1r">
+          <input type="checkbox" id="chkEnableUSB" name="chkEnableUSB" />  &nbsp;  {{=it.enableusb}}
+        </div>
+        <div class="clear"></div>
+      </div>      
+    </div>
+  </form>
+  <script type="text/javascript">EL.USB.init()</script>
+</div>

@@ -1,0 +1,1 @@
+<div class="conf"> <fieldset> <legend>{{=it.diagconf}}</legend> <a href="info/diaginfo.txt" class="btn full" target="_blank"> {{=it.dldiaginfo}} </a> </fieldset> </div>

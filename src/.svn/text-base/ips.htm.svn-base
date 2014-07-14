@@ -1,0 +1,7 @@
+<div class="ips grid-b tabc">
+  <table id="ipscurrentgrid" class="easyui-datagrid" singleSelect="true"></table>
+  <table id="ipsvoltagegrid" class="easyui-datagrid" singleSelect="true"></table>
+  <table id="ipsenergygrid" class="easyui-datagrid" singleSelect="true"></table>
+
+  <script>EL.InputPhase().init();</script>
+</div>

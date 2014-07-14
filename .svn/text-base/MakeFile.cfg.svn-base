@@ -1,0 +1,97 @@
+#Debug Configuration File
+
+#Language package
+?in=src/locale/cn&out=src/locale/cn.js
+?in=src/locale/de&out=src/locale/de.js
+
+#Crunch Javascript
+?in=src/js&out=src/js/prod.js
+  #library
+  jquery-1.7.2.min.js
+  jquery.easyui.min.js
+  jquery-ui-1.8.17.custom.min.js
+  jquery.cookie.js
+  jquery.validate.js
+  jquery.powertip-1.1.0.min.js
+  jquery.coolfieldset.js
+  jquery.fileUploader.js
+  es5-slim-object.create.js
+  string.js
+
+  #from India team
+  common.js
+  ddsmoothmenu.js
+  chrome.js
+  doT.js
+  LAB.src.js
+
+  #custom javascript begin
+  setting.js
+  configuration.js
+  utility.js
+  privileges.js
+  validator.js
+
+  login.js
+  viewlog.js
+  roles.js
+  master.js
+  setalarm.js
+  editgrid.js
+  extsensor.js
+  circuitbreak.js
+  inputphase.js
+  pdu.js
+  outlets.js
+  dashboards.js
+  outlet.js
+  datetime.js
+  serverreach.js
+  ping.js
+  user.js
+  connectuser.js
+  deviceinfo.js
+  updatehistory.js
+  usb.js
+  ssh.js
+  resetdevice.js
+  loginset.js
+  passwordpolicy.js
+  datalogset.js
+  uploadcfg.js
+  changepsw.js
+  eventrule.js
+  smtp.js
+  ldap.js
+  network.js
+  snmp.js
+  http.js
+  telnet.js
+  ftp.js
+  forcehttps.js
+  locale.js
+
+#Crunch CSS: combine first and then auto sprites the css.
+?in=src/css&out=src/css/prod.css
+$node tool/sprites.js
+  config.css
+
+  jquery.powertip.css
+  jquery.ui.theme.css
+  jquery.ui.core.css
+  jquery.ui.button.css
+  jquery.ui.dialog.css
+  jquery.ui.tabs.css
+  jquery.ui.datepicker.css
+  jquery.ui.progressbar.css
+
+  animation.css
+  layout.css
+  forms.css
+  frm-style.css
+  easyui.css
+  icon.css
+  fileUploader.css
+  ddsmoothmenu.css
+  chrome.css
+  modules.css

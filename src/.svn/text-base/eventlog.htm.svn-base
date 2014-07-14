@@ -1,0 +1,13 @@
+<div class="viewlog eventlog">
+  <textarea class="txtLog" wrap="off" readonly="readonly"></textarea>
+
+  <div class="bottom">
+    <a class="btn refreshlog" href="#"> {{=it.reflog}} </a>
+    <a class="btn clearlog" id="clearlog" href="#"> {{=it.clearlog}} </a>
+    <a class="btn savelog" href="#"> {{=it.savelog}} </a>
+    <a class="btn launchlog" href="eventlognew.htm?fullwindow" target="_blank"> {{=it.launch}} </a>
+  </div>
+
+  <script type="text/javascript">EL.ViewDataLog({selector:".eventlog" , url: "eventlog.txt"}).init();</script>
+
+</div>

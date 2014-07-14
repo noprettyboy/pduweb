@@ -1,0 +1,69 @@
+
+<!-- roles main dialog -->
+<div class="roles">
+  <div class="grid-b">
+    <table id="rolegrid"></table>
+    <!-- <div id="rolepager"></div> -->
+  </div>
+
+  <div class="bottom">
+    <input class="btn disable" type="submit" value="{{=it.news}}" id="btnNewRole"/>
+    <input class="btn disable" type="submit" value="{{=it.edits}}" id="btnEditRole"/>
+    <input class="btn disable" type="button" value="{{=it.deletes}}" id="btnDeleteRole"/>
+  </div>
+
+</div>
+
+<!-- roles edit dialog -->
+<div id="editrole" class="editrole hide">
+  <ul>
+    <li><a href="#rolesetting">{{=it.settings}}</a></li>
+    <li><a href="#roleprivilege">{{=it.privileges}}</a></li>
+  </ul>
+  <div id="rolesetting"> 
+    <form class="formval">
+      <ul>
+        <li>
+          <label for="username">{{=it.rolename}}:</label>
+          <input type="text" name="txtRoleName" id="txtRoleName" value="" />
+        </li>
+        <li>
+          <label for="password">{{=it.description}}:</label>
+          <input type="text" name="txtDescription" id="txtDescription" value=""/>
+        </li>
+      </ul>
+    </form>
+  </div>
+  <div id="roleprivilege">
+    <div class="grid-b">
+      <table id="editrolegrid"></table>
+    </div>
+  </div>
+  <div class="bottom">
+    <input class="btn" type='button' id="btnEditPrivileges" value=" {{=it.edits}} "/>
+    <input class="btn" type='button' id="btnSavePrivileges" value=" {{=it.saves}} "/>
+  </div>
+</div>
+
+<!-- roles parameter dialog -->
+<div id="privirole" class="privirole hide">
+  <p>
+    {{=it.selectillustrate}}
+    <!-- Select privileges to add to role.<br/>Be aware some privileges may require additional parameters. -->
+  </p>
+  <div class="coll">
+    <legend>{{=it.privileges}}</legend>
+    <div class="grid-b">
+      <table id="gdDivPrivileges"></table>
+    </div>
+  </div>
+  <div class="colr">
+    <legend>{{=it.parameters}}</legend>
+    <div class="grid-b">
+      <table id="gdDivParameters"></table>
+    </div>
+  </div>
+</div>
+
+
+<script type="text/javascript">EL.Roles().init();</script>

@@ -1,0 +1,176 @@
+﻿<div id="tabSslCert" >
+  <ul>
+    <li><a href="#active">Active SSL Certificate</a></li>
+    <li><a href="#new">New SSL Certificate</a></li>
+  </ul>
+  <div id="active">
+      <form id="fractive" class="formvalo" name="" action="" method="">
+        <div class="gengap">
+          <div class="lalign" style="width:355px; margin-right:10px;">
+              <fieldset>
+                  <legend>Issued to</legend>
+                  <div>
+                      <div class="gengap">
+                          <div class="net2l">Country:</div>
+                          <div class="lalign">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l">State or Province:</div>
+                          <div class="ssldisable">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l">Locality:</div>
+                          <div class="ssldisable">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l">Organization:</div>
+                          <div class="ssldisable">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l">Organization Unit:</div>
+                          <div class="ssldisable">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l" >Common Name:</div>
+                          <div class="lalign">Demo Certificate</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l">Email Address:</div>
+                          <div class="ssldisable">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                       <div class="gengap">
+                          <div class="net2l" >Serial No:</div>
+                          <div class="lalign">04</div>
+                          <div class="clear"></div>
+                      </div>
+                  </div>
+              </fieldset>
+          </div>
+          <div class="lalign" style="width:355px;">
+              <fieldset>
+                  <legend>Issued by</legend>
+                  <div>
+                      <div class="gengap">
+                          <div class="net2l">Country:</div>
+                          <div class="ssldisable">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l">State or Province:</div>
+                          <div class="ssldisable">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l">Locality:</div>
+                          <div class="ssldisable">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l">Organization:</div>
+                          <div class="ssldisable">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l" >Organization Unit:</div>
+                          <div class="ssldisable">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l">Common Name:</div>
+                          <div class="lalign">Demo Certificate</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l">Email Address:</div>
+                          <div class="ssldisable">not set</div>
+                          <div class="clear"></div>
+                      </div>
+                      <div class="gengap">
+                          <div class="net2l">&nbsp;</div>
+                          <div class="ssldisable">&nbsp;</div>
+                          <div class="clear"></div>
+                      </div>
+                  </div>
+              </fieldset>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <div class="gengap">
+          <fieldset>
+            <legend>Validity</legend>
+            <div>
+                <div class="lalign" style="width:355px; padding:0px 10px 10px 0px;">
+                    <div class="net2l">Not Valid Before:</div>
+                    <div class="lalign">Mar 07 12:57:27 2012 GMT</div>
+                    <div class="clear"></div>
+                </div>
+                <div class="lalign" style="width:340px; padding:0px 0px 10px 0px;">
+                    <div class="net2l" style="width:150px;">Not Valid After:</div>
+                    <div class="lalign">Mar 09 12:57:27 2016 GMT</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div>
+                <div class="lalign" style="width:340px; padding:0px 0px 10px 0px">
+                    <div class="net2l" >Key Length:</div>
+                    <div class="lalign">1024</div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+          </fieldset>
+          <fieldset>
+              <legend>Fingerprints</legend>
+              <div>
+                <div class="gengap" style="padding:0px 10px 10px 0px;">
+                  <div class="net2l" >SHA1 Fingerprint:</div>
+                  <div class="lalign">90:14:6B:74:FC:B8:30:C8:48:06:4F:52:A6:27:C4:0A:EE:D8:C5:6E</div>
+                  <div class="clear"></div>
+                </div>
+                <div class="gengap" style="padding:0px 10px 10px 0px;">
+                  <div class="net2l" >MD5 Fingerprint:</div>
+                  <div class="lalign">43:51:43:a1:b5:fc:8b:b7:0a:3a:a9:b1:0f:66:73:a8</div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+          </fieldset>
+        </div>
+    </form>
+  </div>
+
+  <div id="new">
+    <div class="gengap">
+      <fieldset>
+        <legend>Upload New Certificate</legend>
+        <div id="uploadkey">
+          <div class="gengap">
+            <div class="lalign" style="width:150px;">Certificate File::</div>
+            <div class="lalign">
+              <input type="file" name="certFile" id="certFile" class="fmtx"/>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap" style="padding:3px 0px 10px 0px;">
+            <div class="lalign">Sends a new certificate that becomes active immediately for new SSL connections.</div>
+            <div class="clear"></div>
+          </div>
+          <div class="gengap">
+            <div class="lalign" style="padding-right:10px;"><input type="button" name="btnUploadSSL" id="btnUploadSSL" value="Apply"/></div>
+            <div class="lalign"><input type="button" name="btnUploadSSL" id="btnUploadSSL" value="Cancel"/></div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <script type="text/javascript">EL.SSL.init()</script>
+</div>

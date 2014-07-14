@@ -1,0 +1,85 @@
+<form name="frdevinfo" class="frdevinfo grid-b">
+  <!--Pdu InformationTab-->
+  <div id="tabDeviceInformation"  style="display:none">
+    <ul>
+      <li><a href="#PDUinformation">{{=it.pduinfo}}</a></li>
+      <li><a href="#outlets">{{=it.outlets}}</a></li>
+      <li><a href="#circuitBreakers">{{=it.circbreak}}</a></li>
+    </ul>
+    <div id="PDUinformation">
+      <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.sku}}:</div>
+        <div class="lalign" id="model">PX2-5464-E2</div>
+        <div class="clear"></div>
+      </div>
+      <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.serialnum}}:</div>
+        <div class="lalign" id="serialNum">PEN1B00001</div>
+        <div class="clear"></div>
+      </div>
+      <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.rating}}:</div>
+        <div class="lalign" id="rating">200-240V, 24A, 4.8-5.8kVA, 50/60Hz</div>
+        <div class="clear"></div>
+      </div>
+       <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.functype}}:</div>
+        <div class="lalign" id="funcType">PDU Metered, Outlet Switched</div>
+        <div class="clear"></div>
+        <div></div>
+      </div>
+      <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.ipv4addr}}:</div>
+        <div class="lalign" id="devipv4Addrr">192.168.0.23</div>
+        <div class="clear"></div>
+        <div></div>
+      </div>
+      <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.ipv6addr}}:</div>
+        <div class="lalign" id="devipv6Addrr"> - </div>
+        <div class="clear"></div>
+      </div>
+      <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.macaddr}}:</div>
+        <div class="lalign" id="macAddr">00:0d:5d:08:62:6f</div>
+        <div class="clear"></div>
+      </div>
+      <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.fwversion}}:</div>
+        <div class="lalign" id="firmvarVer">2.2.0.5-28550</div>
+        <div class="clear"></div>
+      </div>
+      <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.bootver}}:</div>
+        <div class="lalign" id="bootver">2.02</div>
+        <div class="clear"></div>
+      </div>
+      <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.langver}}:</div>
+        <div class="lalign" id="langver">1.02</div>
+        <div class="clear"></div>
+      </div>
+      <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.webversion}}:</div>
+<<<<<<< .mine
+        <div class="lalign" id="webVer">6.39</div>
+=======
+        <div class="lalign" id="webVer">6.36.7</div>
+>>>>>>> .r6
+        <div class="clear"></div>
+      </div>
+      <div class="gengap">
+        <div class="lalign" style="width:200px">{{=it.pdumib}}:</div>
+        <div class="lalign"><a id="devInfoDwdLink" href="data/Diagnostics_Information.docx" style="color: blue;" target="blank">{{=it.download}}</a></div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div id="outlets">
+      <div id="gdOutletDevInfo"></div>
+    </div>
+    <div id="circuitBreakers">
+      <div id="gdCBDevInfo"></div>
+    </div>
+  </div>
+  <script type="text/javascript">EL.DeviceInfo.init();</script>
+</form>

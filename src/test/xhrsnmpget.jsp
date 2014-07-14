@@ -1,0 +1,1 @@
+{"chkSnmpV1V2Acs":true,"readCommStr":"public","writeCommStr":"private","chkSnmpV3Acs":true,"sysContact":"what","sysName":"is2","sysLocation":"that","chkTrapsAcs":false,"host1":"","port1":4,"community1":"public","host2":"","port2":162,"community2":"public","host3":"","port3":162,"community3":"public"}

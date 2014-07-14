@@ -1,0 +1,52 @@
+<div class="serreach grid-b">
+  <table id="gdServerReachability"></table>
+
+  <div class="bottom" style="padding:5px 0 0 0;">
+    <input type="button" class="btn" value="{{=it.news}}" id="btnNewServer"/>
+    <input type="button" class="btn" value="{{=it.edit}}" id="btnEditServer"/>
+    <input type="button" class="btn" value="{{=it.deletes}}" id="btnDeleteServer"/>
+    <input type="button" class="btn" value="{{=it.refresh}}" id="btnUpdateServer"/>
+  </div>
+
+
+  <div id="createNewServer" class="serreach" style="display:none">
+    <div id="NewServerHolder">
+      <form id="frAddNewServer" method="post" class="formval">
+        <ul>
+          <li>
+            <label>{{=it.iphostnm}}:</label>
+            <input type="text" id="IP_Hostname" class="fmtx1" name="IP_Hostname" />
+          </li>
+          <li>
+            <label>{{=it.enableping}}:</label>
+            <input type="checkbox" id="chkEnablePingMonitoring" name="chkEnablePingMonitoring" checked="checked" />
+          </li>
+          <li>
+            <label>{{=it.numSuccping}}:</label>
+            <input type="text"  id="No_Pings" class="fmtx1" name="No_Pings" value="15" />
+          </li>
+          <!--
+          <li>
+            <label>Wait Time (in seconds) after Successful Ping:</label>
+            <input type="text" name="Successful_Ping" id="Successful_Ping" class="fmtx1" value="60" />
+          </li>
+          <li>
+            <label>Wait Time (in seconds) after Unsuccessful Ping:</label>
+            <input type="text" name="Unsuccessful_Ping" id="Unsuccessful_Ping" class="fmtx1" value="5" />
+          </li>
+           -->
+          <li>
+            <label>{{=it.numunsuccping}}:</label>
+            <input type="text" name="UnsuccessfulPing_Failure" id="UnsuccessfulPing_Failure" class="fmtx1" value="5" />
+          </li>
+          <li>
+            <label>{{=it.waittime}}:</label>
+            <input type="text" name="Resume_Ping" id="Resume_Ping" class="fmtx1" value="180" />
+          </li>
+        </ul>
+      </form>
+    </div>
+  </div>
+
+  <script type="text/javascript">EL.ServerReach();</script>
+</div>

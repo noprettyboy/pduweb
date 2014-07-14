@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+  <title>UnitTest Page</title>
+</head>
+<body>
+
+  <form>
+    Url: <input type="text" id="url" /> <input type="button" id="submit" value="  GO  "  />
+    <hr />
+    <textarea id="input" rows="6" ></textarea>
+    <hr />
+
+    <textarea id="output" rows="10"></textarea>
+  </form>
+
+  <hr />
+
+  <form action="xhrfwfilepost.jsp" method="post" enctype="multipart/form-data">
+    <label for="file">File Upload Test</label>
+    <input type="file" name="file" />
+    <input type="submit" name="submit" value="Submit" />
+  </form>
+
+
+</body>
+
+<style>
+#input, #output {
+  width:100%;
+}
+#url{
+  width: 80%;
+}
+</style>
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+(function($){
+
+  $("#submit").on("click",function(){
+    var $input = $("#input"),
+        $output = $("#output"),
+        $url = $("#url");
+
+    $.ajax({contentType: "application/json",
+      url: $url.val(),
+      type:"POST",
+      dataType:"json",
+      data: $input.val(),
+      success: function(data){
+        $output.val(JSON.stringify(data));
+      },
+      error: function(err){
+        $output.val(JSON.stringify(err));
+      }
+    });
+
+  });
+
+  $(document).ajaxError(function(e, req, settings) {
+
+    console.log(req.status);
+
+  });
+
+
+  window.setInterval(function(){
+    $.ajax({
+      url: "xhrextsensorsgetgrid.jsp",
+      type: "post",  data: JSON.stringify({cookie:1234567890, pdu:1}),
+      dataType: "json",
+      success: function(data){
+        console.log(data);
+      }
+    })
+  }, 1000);
+
+})(jQuery);
+</script>
+
+</html>

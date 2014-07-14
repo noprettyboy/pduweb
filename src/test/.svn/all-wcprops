@@ -1,0 +1,587 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/pduweb/!svn/ver/13/src/test
+END
+xhripsalarmgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pduweb/!svn/ver/1/src/test/xhripsalarmgetgrid.jsp
+END
+xhrldaptest.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pduweb/!svn/ver/1/src/test/xhrldaptest.jsp
+END
+xhrmasterpgget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrmasterpgget.jsp
+END
+xhrextsensorsgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pduweb/!svn/ver/1/src/test/xhrextsensorsgetgrid.jsp
+END
+xhripsvoltagegetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pduweb/!svn/ver/1/src/test/xhripsvoltagegetgrid.jsp
+END
+xhrsensoralarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pduweb/!svn/ver/1/src/test/xhrsensoralarmget.jsp
+END
+xhrdatalogset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pduweb/!svn/ver/1/src/test/xhrdatalogset.jsp
+END
+xhroutpowstatget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pduweb/!svn/ver/1/src/test/xhroutpowstatget.jsp
+END
+xhrtelnetget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pduweb/!svn/ver/1/src/test/xhrtelnetget.jsp
+END
+xhrpingget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pduweb/!svn/ver/1/src/test/xhrpingget.jsp
+END
+xhrsetsmtpget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pduweb/!svn/ver/1/src/test/xhrsetsmtpget.jsp
+END
+xhrsensoralarmset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pduweb/!svn/ver/1/src/test/xhrsensoralarmset.jsp
+END
+xhrpduenergyget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pduweb/!svn/ver/3/src/test/xhrpduenergyget.jsp
+END
+xhripscurrentgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pduweb/!svn/ver/1/src/test/xhripscurrentgetgrid.jsp
+END
+xhroutpowstatset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pduweb/!svn/ver/1/src/test/xhroutpowstatset.jsp
+END
+xhrpwpolicyget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrpwpolicyget.jsp
+END
+xhrpdutree.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pduweb/!svn/ver/1/src/test/xhrpdutree.jsp
+END
+xhrpduvoltageget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pduweb/!svn/ver/1/src/test/xhrpduvoltageget.jsp
+END
+xhrnewusersget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrnewusersget.jsp
+END
+xhralarmgetpdugrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pduweb/!svn/ver/1/src/test/xhralarmgetpdugrid.jsp
+END
+xhrsensortempalarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pduweb/!svn/ver/1/src/test/xhrsensortempalarmget.jsp
+END
+xhripspowergetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pduweb/!svn/ver/1/src/test/xhripspowergetgrid.jsp
+END
+xhrserverreachgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pduweb/!svn/ver/1/src/test/xhrserverreachgrid.jsp
+END
+xhrusergetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrusergetgrid.jsp
+END
+xhrpdulist.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pduweb/!svn/ver/1/src/test/xhrpdulist.jsp
+END
+xhredituserget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhredituserget.jsp
+END
+xhrloginsetget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrloginsetget.jsp
+END
+xhrnewusersset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrnewusersset.jsp
+END
+test.htm
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/pduweb/!svn/ver/1/src/test/test.htm
+END
+xhrcbsalarmgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pduweb/!svn/ver/1/src/test/xhrcbsalarmgetgrid.jsp
+END
+xhrrolesgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pduweb/!svn/ver/1/src/test/xhrrolesgetgrid.jsp
+END
+xhripsvoltagealarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pduweb/!svn/ver/1/src/test/xhripsvoltagealarmget.jsp
+END
+uptstatus.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pduweb/!svn/ver/1/src/test/uptstatus.jsp
+END
+xhrpducurrentget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pduweb/!svn/ver/1/src/test/xhrpducurrentget.jsp
+END
+xhrevtactionget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pduweb/!svn/ver/1/src/test/xhrevtactionget.jsp
+END
+testJQValidate.htm
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/testJQValidate.htm
+END
+xhrlocaleget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pduweb/!svn/ver/2/src/test/xhrlocaleget.jsp
+END
+xhrextsensorgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pduweb/!svn/ver/1/src/test/xhrextsensorgetgrid.jsp
+END
+xhroutpowcancel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pduweb/!svn/ver/1/src/test/xhroutpowcancel.jsp
+END
+xhrevtloggetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pduweb/!svn/ver/1/src/test/xhrevtloggetgrid.jsp
+END
+data.log.bak
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/pduweb/!svn/ver/9/src/test/data.log.bak
+END
+testEasyUI.htm
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pduweb/!svn/ver/1/src/test/testEasyUI.htm
+END
+xhrsensorropealarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pduweb/!svn/ver/1/src/test/xhrsensorropealarmget.jsp
+END
+xhrdevinfopduinfoget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pduweb/!svn/ver/7/src/test/xhrdevinfopduinfoget.jsp
+END
+xhrldapget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pduweb/!svn/ver/13/src/test/xhrldapget.jsp
+END
+xhrforcehttpsget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pduweb/!svn/ver/1/src/test/xhrforcehttpsget.jsp
+END
+xhrresetdevget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrresetdevget.jsp
+END
+xhrnewserverreachget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pduweb/!svn/ver/1/src/test/xhrnewserverreachget.jsp
+END
+xhrsmtpget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pduweb/!svn/ver/1/src/test/xhrsmtpget.jsp
+END
+xhroutalarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhroutalarmget.jsp
+END
+xhrcbsalarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrcbsalarmget.jsp
+END
+xhrsetloginget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrsetloginget.jsp
+END
+xhrsensorsmokealarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pduweb/!svn/ver/1/src/test/xhrsensorsmokealarmget.jsp
+END
+xhrconusersdel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrconusersdel.jsp
+END
+xhrftpget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pduweb/!svn/ver/1/src/test/xhrftpget.jsp
+END
+xhrnetworkget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pduweb/!svn/ver/1/src/test/xhrnetworkget.jsp
+END
+xhrextsensorget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pduweb/!svn/ver/1/src/test/xhrextsensorget.jsp
+END
+xhrdevinfoolgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pduweb/!svn/ver/1/src/test/xhrdevinfoolgetgrid.jsp
+END
+xhrsensorspotalarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pduweb/!svn/ver/1/src/test/xhrsensorspotalarmget.jsp
+END
+xhrresetdevset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrresetdevset.jsp
+END
+xhripsgeneralgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pduweb/!svn/ver/1/src/test/xhripsgeneralgetgrid.jsp
+END
+xhrntpcheckget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrntpcheckget.jsp
+END
+xhrsensorhumalarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pduweb/!svn/ver/1/src/test/xhrsensorhumalarmget.jsp
+END
+xhrsmtpsendmailget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pduweb/!svn/ver/1/src/test/xhrsmtpsendmailget.jsp
+END
+xhroutpowstatus.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pduweb/!svn/ver/1/src/test/xhroutpowstatus.jsp
+END
+xhrlocalepost.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pduweb/!svn/ver/1/src/test/xhrlocalepost.jsp
+END
+xhrpdualarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrpdualarmget.jsp
+END
+xhrfwconfigapply.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pduweb/!svn/ver/1/src/test/xhrfwconfigapply.jsp
+END
+xhrsensordooralarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pduweb/!svn/ver/1/src/test/xhrsensordooralarmget.jsp
+END
+xhripscurrentalarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pduweb/!svn/ver/1/src/test/xhripscurrentalarmget.jsp
+END
+xhrcbsgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pduweb/!svn/ver/1/src/test/xhrcbsgetgrid.jsp
+END
+xhroutgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pduweb/!svn/ver/1/src/test/xhroutgetgrid.jsp
+END
+xhrsnmpget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pduweb/!svn/ver/1/src/test/xhrsnmpget.jsp
+END
+xhreditserverreachget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pduweb/!svn/ver/1/src/test/xhreditserverreachget.jsp
+END
+xhrhttpget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pduweb/!svn/ver/1/src/test/xhrhttpget.jsp
+END
+xhrdataloggetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pduweb/!svn/ver/1/src/test/xhrdataloggetgrid.jsp
+END
+xhrfmwareuphistgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pduweb/!svn/ver/1/src/test/xhrfmwareuphistgetgrid.jsp
+END
+xhrevtruleget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pduweb/!svn/ver/1/src/test/xhrevtruleget.jsp
+END
+xhrpduget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pduweb/!svn/ver/2/src/test/xhrpduget.jsp
+END
+xhrusbget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pduweb/!svn/ver/1/src/test/xhrusbget.jsp
+END
+xhreditrolesget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pduweb/!svn/ver/1/src/test/xhreditrolesget.jsp
+END
+xhrchangepwget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrchangepwget.jsp
+END
+xhrdatetimeget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/test/xhrdatetimeget.jsp
+END
+xhrpdustatusget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pduweb/!svn/ver/1/src/test/xhrpdustatusget.jsp
+END
+xhrsshget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pduweb/!svn/ver/1/src/test/xhrsshget.jsp
+END
+xhrsensorbeaconalarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pduweb/!svn/ver/1/src/test/xhrsensorbeaconalarmget.jsp
+END
+xhrevtruleset.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pduweb/!svn/ver/1/src/test/xhrevtruleset.jsp
+END
+xhrpingpost.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pduweb/!svn/ver/1/src/test/xhrpingpost.jsp
+END
+xhrsensordryalarmget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pduweb/!svn/ver/1/src/test/xhrsensordryalarmget.jsp
+END
+xhrntpcheckpost.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pduweb/!svn/ver/1/src/test/xhrntpcheckpost.jsp
+END
+xhrdevinfocbgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pduweb/!svn/ver/1/src/test/xhrdevinfocbgetgrid.jsp
+END
+xhroutget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pduweb/!svn/ver/1/src/test/xhroutget.jsp
+END
+xhrconusersgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pduweb/!svn/ver/1/src/test/xhrconusersgetgrid.jsp
+END
+xhrusersgetgrid.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pduweb/!svn/ver/1/src/test/xhrusersgetgrid.jsp
+END
+xhrrolesdel.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pduweb/!svn/ver/1/src/test/xhrrolesdel.jsp
+END
+xhrdatalogget.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pduweb/!svn/ver/1/src/test/xhrdatalogget.jsp
+END
+data.log
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/pduweb/!svn/ver/8/src/test/data.log
+END

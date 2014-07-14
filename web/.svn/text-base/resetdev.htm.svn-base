@@ -1,0 +1,1 @@
+<form id="frresetDev"> {{=it.doresetcard}} <form> <script type="text/javascript">EL.ResetDevice.init()</script>

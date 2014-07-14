@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 23
+/svn/pduweb/!svn/ver/13
+END
+MakeFile.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/pduweb/!svn/ver/1/MakeFile.cfg
+END
+build.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/pduweb/!svn/ver/1/build.cmd
+END
+build.sh
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/pduweb/!svn/ver/1/build.sh
+END
+debug.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/pduweb/!svn/ver/1/debug.cmd
+END
+enlogic.sh
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/pduweb/!svn/ver/1/enlogic.sh
+END

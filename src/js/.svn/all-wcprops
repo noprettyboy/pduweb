@@ -1,0 +1,377 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/pduweb/!svn/ver/13/src/js
+END
+login.js
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/pduweb/!svn/ver/1/src/js/login.js
+END
+privileges.js
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pduweb/!svn/ver/1/src/js/privileges.js
+END
+serverreach.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/pduweb/!svn/ver/1/src/js/serverreach.js
+END
+dashboards.js
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pduweb/!svn/ver/3/src/js/dashboards.js
+END
+outlet.js
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/pduweb/!svn/ver/4/src/js/outlet.js
+END
+viewlog.js
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/pduweb/!svn/ver/1/src/js/viewlog.js
+END
+snmp.js
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/pduweb/!svn/ver/1/src/js/snmp.js
+END
+chrome.js
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/pduweb/!svn/ver/1/src/js/chrome.js
+END
+http.js
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/pduweb/!svn/ver/1/src/js/http.js
+END
+changepsw.js
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/pduweb/!svn/ver/1/src/js/changepsw.js
+END
+jquery-ui-1.8.17.custom.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pduweb/!svn/ver/7/src/js/jquery-ui-1.8.17.custom.min.js
+END
+jquery.ui.core.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pduweb/!svn/ver/1/src/js/jquery.ui.core.js
+END
+passwordpolicy.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pduweb/!svn/ver/1/src/js/passwordpolicy.js
+END
+roles.js
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/pduweb/!svn/ver/1/src/js/roles.js
+END
+LAB.src.js
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/pduweb/!svn/ver/1/src/js/LAB.src.js
+END
+jquery.effects.core.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pduweb/!svn/ver/1/src/js/jquery.effects.core.js
+END
+loginset.js
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/pduweb/!svn/ver/1/src/js/loginset.js
+END
+validator.js
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/pduweb/!svn/ver/1/src/js/validator.js
+END
+jquery.cookie.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pduweb/!svn/ver/1/src/js/jquery.cookie.js
+END
+connectuser.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/pduweb/!svn/ver/1/src/js/connectuser.js
+END
+common.js
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/pduweb/!svn/ver/1/src/js/common.js
+END
+network.js
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/pduweb/!svn/ver/1/src/js/network.js
+END
+ftp.js
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/pduweb/!svn/ver/1/src/js/ftp.js
+END
+extsensor.js
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/pduweb/!svn/ver/1/src/js/extsensor.js
+END
+jquery.coolfieldset.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pduweb/!svn/ver/1/src/js/jquery.coolfieldset.js
+END
+editgrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/pduweb/!svn/ver/1/src/js/editgrid.js
+END
+datetime.js
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/pduweb/!svn/ver/1/src/js/datetime.js
+END
+locale.js
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/pduweb/!svn/ver/1/src/js/locale.js
+END
+resetdevice.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/pduweb/!svn/ver/1/src/js/resetdevice.js
+END
+utility.js
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/pduweb/!svn/ver/1/src/js/utility.js
+END
+jquery.powertip-1.1.0.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pduweb/!svn/ver/1/src/js/jquery.powertip-1.1.0.min.js
+END
+updatehistory.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pduweb/!svn/ver/1/src/js/updatehistory.js
+END
+es5-slim-object.create.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pduweb/!svn/ver/1/src/js/es5-slim-object.create.js
+END
+string.js
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/pduweb/!svn/ver/1/src/js/string.js
+END
+ddsmoothmenu.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pduweb/!svn/ver/1/src/js/ddsmoothmenu.js
+END
+configuration.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pduweb/!svn/ver/1/src/js/configuration.js
+END
+circuitbreak.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pduweb/!svn/ver/1/src/js/circuitbreak.js
+END
+setalarm.js
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/pduweb/!svn/ver/1/src/js/setalarm.js
+END
+eventrule.js
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/pduweb/!svn/ver/1/src/js/eventrule.js
+END
+deviceinfo.js
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pduweb/!svn/ver/1/src/js/deviceinfo.js
+END
+setting.js
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/pduweb/!svn/ver/1/src/js/setting.js
+END
+user.js
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/pduweb/!svn/ver/1/src/js/user.js
+END
+ldap.js
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/pduweb/!svn/ver/13/src/js/ldap.js
+END
+inputphase.js
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pduweb/!svn/ver/1/src/js/inputphase.js
+END
+forcehttps.js
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pduweb/!svn/ver/1/src/js/forcehttps.js
+END
+smtp.js
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/pduweb/!svn/ver/1/src/js/smtp.js
+END
+doT.js
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/pduweb/!svn/ver/1/src/js/doT.js
+END
+datalogset.js
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pduweb/!svn/ver/1/src/js/datalogset.js
+END
+pdu.js
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/pduweb/!svn/ver/1/src/js/pdu.js
+END
+jquery.fileUploader.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pduweb/!svn/ver/1/src/js/jquery.fileUploader.js
+END
+usb.js
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/pduweb/!svn/ver/1/src/js/usb.js
+END
+master.js
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/pduweb/!svn/ver/1/src/js/master.js
+END
+telnet.js
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/pduweb/!svn/ver/1/src/js/telnet.js
+END
+ping.js
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/pduweb/!svn/ver/1/src/js/ping.js
+END
+ssh.js
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/pduweb/!svn/ver/1/src/js/ssh.js
+END
+outlets.js
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/pduweb/!svn/ver/1/src/js/outlets.js
+END
+jquery.easyui.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pduweb/!svn/ver/1/src/js/jquery.easyui.min.js
+END
+ssl.js
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/pduweb/!svn/ver/1/src/js/ssl.js
+END
+jquery-1.7.2.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pduweb/!svn/ver/1/src/js/jquery-1.7.2.min.js
+END
+prod.js
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/pduweb/!svn/ver/12/src/js/prod.js
+END
+uploadcfg.js
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/pduweb/!svn/ver/1/src/js/uploadcfg.js
+END
+jquery.validate.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pduweb/!svn/ver/1/src/js/jquery.validate.js
+END

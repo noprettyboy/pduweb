@@ -1,0 +1,1 @@
+{"pduid":1,"sensorid":4,"switch":0,"cbswitch":1}

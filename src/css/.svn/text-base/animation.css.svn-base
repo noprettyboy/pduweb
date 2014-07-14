@@ -1,0 +1,41 @@
+@-webkit-keyframes rotatation {
+  from {
+    -webkit-transform: rotate(0deg); 
+    -moz-transform: rotate(0deg); 
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg); 
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotatation {
+  from {
+    -webkit-transform: rotate(0deg); 
+    -moz-transform: rotate(0deg); 
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg); 
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+  }
+}
+
+.loader > div {
+  -webkit-animation-duration:         3s;
+  -webkit-animation-name:             rotatation;
+  -webkit-animation-iteration-count:  infinite;
+  -webkit-animation-timing-function:  linear;
+
+  animation-duration:         3s;
+  animation-name:             rotatation;
+  animation-iteration-count:  infinite;
+  animation-timing-function:  linear;
+}

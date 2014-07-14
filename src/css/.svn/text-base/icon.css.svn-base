@@ -1,0 +1,485 @@
+.icon-arrow-up
+{
+  background: center no-repeat;
+  background-image: url('images/icon-up.png');    /** sprite-ref: spritepng; */
+}
+.icon-arrow-down
+{
+  background: center no-repeat;
+  background-image: url('images/icon-down.png');  /** sprite-ref: spritepng; */
+}
+.icon-arrow-left
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/icon-left.png');  /** sprite-ref: spritepng; */
+}
+.icon-arrow-right
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/icon-right.png'); /** sprite-ref: spritepng; */
+}
+
+.icon-arrow-up-hover
+{
+  background: center no-repeat;
+  background-image: url('images/icon-up.png');    /** sprite-ref: spritepng; */
+}
+.icon-arrow-down-hover
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/icon-down.png');  /** sprite-ref: spritepng; */
+}
+.icon-arrow-left-hover
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/icon-left.png');  /** sprite-ref: spritepng; */
+}
+.icon-arrow-right-hover
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/icon-right.png'); /** sprite-ref: spritepng; */
+}
+
+.icon-arrow-up-selected
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/icon-up.png');    /** sprite-ref: spritepng; */
+}
+.icon-arrow-down-selected
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/icon-down.png');  /** sprite-ref: spritepng; */
+}
+.icon-arrow-left-selected
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/icon-left.png');  /** sprite-ref: spritepng; */
+}
+.icon-arrow-right-selected
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('images/icon-right.png'); /** sprite-ref: spritepng; */
+}
+
+.icon-role,
+.icon-vwdtlog,
+.icon-bell,
+.icon-setting,
+.icon-on,
+.icon-off,
+.icon-pdus,
+.icon-ips,
+.icon-cbs,
+.icon-extsens,
+.icon-outlets,
+.icon-outlet,
+.icon-dashboard,
+.icon-eventlog,
+.icon-serReach,
+.icon-apply,
+.icon-cross,
+.icon-tick
+{
+  padding: 1px 0 1px 20px;
+}
+
+.icon-cross{
+  background-repeat: no-repeat;
+  background-image: url("../images/cross.gif");             /** sprite-ref: spritepng; */
+}
+
+.icon-role{
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/role.png");        /** sprite-ref: spritepng; */
+}
+.icon-vwdtlog{
+  background-repeat: no-repeat;
+  /*background-image: url("../images/16x16/report.gif");      */
+  background-image: url("../images/16x16/report.png");      /** sprite-ref: spritepng; */
+}
+.icon-eventlog{
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/file_doc.png");    /** sprite-ref: spritepng; */
+}
+.icon-serReach{
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/wifi.png");        /** sprite-ref: spritepng; */
+}
+
+.icon-bell{
+  background-repeat: no-repeat;
+  background-image: url("../images/desktop.png");           /** sprite-ref: spritepng; */
+}
+.icon-setting{
+  background-repeat: no-repeat;
+  background-image: url("../images/gauge.png");             /** sprite-ref: spritepng; */
+}
+
+.icon-off{
+  background-repeat: no-repeat;
+  background-image: url("../images/ledoff.png");            /** sprite-ref: spritepng; */
+}
+.icon-on{
+  background-repeat: no-repeat;
+  background-image: url("../images/redled.png");            /** sprite-ref: spritepng; */
+}
+.icon-apply{
+  background-repeat: no-repeat;
+  background-image: url("../images/apply.png");             /** sprite-ref: spritepng; */
+}
+.icon-cross{
+  background-repeat: no-repeat;
+  background-image: url("../images/crosses.gif");           /** sprite-ref: spritepng; */
+}
+
+/*icons in tabs*/
+.icon-dashboard{
+  background-repeat: no-repeat;
+  background-image: url("../images/desktop.png");           /** sprite-ref: spritepng; */
+}
+.icon-pdus{
+  background-repeat: no-repeat;
+  background-image: url("images/tree_folder.gif");          /** sprite-ref: spritepng; */
+}
+.icon-ips{
+  background-repeat: no-repeat;
+  background-image: url("../images/ips.png");               /** sprite-ref: spritepng; */
+}
+.icon-cbs{
+  background-repeat: no-repeat;
+  background-image: url("../images/cb.png");                /** sprite-ref: spritepng; */
+}
+.icon-extsens{
+  background-repeat: no-repeat;
+  /*background-image: url("../images/temp.gif");              */
+  background-image: url("../images/temp.png");              /** sprite-ref: spritepng; */
+}
+.icon-outlets{
+  background-repeat: no-repeat;
+  background-image: url("images/tree_folder.gif");          /** sprite-ref: spritepng; */
+}
+.icon-outlet{
+  background-repeat: no-repeat;
+  background-image: url("../images/outlet.png");            /** sprite-ref: spritepng; */
+}
+.icon-tick{
+  background-repeat: no-repeat;
+  background-image: url("../images/tick.gif");              /** sprite-ref: spritepng; */
+}
+
+/* For dialog */
+.icon-alert,
+.icon-confirm,
+.icon-message
+{
+  min-height: 44px;
+  padding: 0 10px 4px 48px;
+}
+
+.icon-alert{
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-warning.gif");      /** sprite-ref: spritepng; sprite-margin-bottom: 400px; */
+}
+
+.icon-confirm{
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-question.png");     /** sprite-ref: spritepng; sprite-margin-bottom: 400px; */
+}
+
+.icon-message{
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-question.png");     /** sprite-ref: spritepng; sprite-margin-bottom: 400px; */
+}
+
+.icon-ipset{
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-question.png");     /** sprite-ref: spritepng; */
+}
+
+.icon-dtwait{
+    background-image: url("../images/wait.gif");           /** sprite-ref: spritepng; */
+}
+
+/*icons in pdu tree*/
+.icon-desk{
+  background-repeat: no-repeat;
+  background-image: url('../images/desktop.png');       /** sprite-ref: spritepng; */
+}
+.icon-ip{
+  background-repeat: no-repeat;
+  background-image: url('../images/ips.png');           /** sprite-ref: spritepng; */
+}
+.icon-ol{
+  background-repeat: no-repeat;
+  background-image: url('../images/outlet.png');        /** sprite-ref: spritepng; */
+}
+.icon-ol-load{
+  background-repeat: no-repeat;
+  background-image: url('../images/outlet_load.png');   /** sprite-ref: spritepng; */
+}
+.icon-cb{
+  background-repeat: no-repeat;
+  background-image: url('../images/cb.png');            /** sprite-ref: spritepng; */
+}
+.icon-temp{
+  background-repeat: no-repeat;
+  /*background-image: url('../images/temp.gif');          */
+  background-image: url('../images/temp.png');          /** sprite-ref: spritepng; */
+}
+
+/*menu*/
+.menu-arr-down{
+  background: 0 4px no-repeat;
+  background-image: url("../images/down.gif");          /** sprite-ref: spritepng; sprite-margin-top:4px; */
+}
+
+.menu-arr-right{
+  background: no-repeat;
+  /*background-image: url("../images/right.gif");         */
+  background-image: url("../images/right.png");         /** sprite-ref: spritepng; */
+}
+
+.icon-changepw{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/useredit.png");  /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-users,
+.icon-userguide
+{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/user.png");      /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-useradd{
+  background: no-repeat;
+  background-image: url("../images/user_add.png");        /** sprite-ref: spritepng; */
+}
+
+.icon-role{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/role.png");      /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+.icon-roleadd{
+  background-repeat: no-repeat;
+  background-image: url("../images/role_add.png");        /** sprite-ref: spritepng; */
+}
+.icon-rolekey{
+  background-repeat: no-repeat;
+  background-image: url("../images/role_key.png");        /** sprite-ref: spritepng; */
+}
+
+.icon-netsvr{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/folder1.png");   /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-http{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/chartorg.gif");  /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-snmp{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/network.png");   /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-ssh{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/terminal.png");  /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-telnet{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/termn1.png");        /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-ftp{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  /*background-image: url("../images/16x16/report.gif");        */
+  background-image: url("../images/16x16/report.png");        /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-network{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/chartorg.gif");      /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-security{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  /*background-image: url("../images/16x16/Key.gif");  */
+  background-image: url("../images/16x16/Keygif.png");           /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+.errorImagefornum{
+  width: 13.5px;
+  height: 13px;
+  margin-top: 4px;
+  margin-right: 4px;
+  background-repeat: no-repeat;
+  background-image: url("../images/cross.gif");   /**  sprite-ref:  spritepng; */
+}
+.SMTPerror6forreq{
+  width: 14px;
+  height: 14px;
+  background-repeat: no-repeat;
+  background-image: url("../images/cross.gif");     /**  sprite-ref:  spritepng; */
+}
+
+.icon-loginset{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/terminal.png");      /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-pwpolicy{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/policy.png");        /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-evtrule{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/trefresh.png");      /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-datalog{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  /*background-image: url("../images/16x16/report.gif");        */
+  background-image: url("../images/16x16/report.png");        /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-datetime{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/vcal.png");          /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+
+
+.icon-smtp{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/email.png");         /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+.icon-testemail{
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/email.png");         /** sprite-ref: spritepng; */
+}
+
+.icon-ldap,
+.icon-serreach
+{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/wifi.png");          /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+.icon-serverqst{
+  background-repeat: no-repeat;
+  background-image: url("../images/icon-question.png");       /** sprite-ref: spritepng; */
+}
+
+.icon-usb{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/chartorg.gif");      /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-eventlog{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/file_doc.png");      /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-vwdtlog{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  /*background-image: url("../images/16x16/report.gif");        */
+  background-image: url("../images/16x16/report.png");        /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-updtfw{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/f_upload.png");      /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-frupdth{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/upd_hist.png");      /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-conuser{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/users.png");         /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+.icon-conuserqst{
+  background-image: url("../images/icon-question.png");       /** sprite-ref: spritepng;  */
+}
+
+.icon-blkconf{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  /*background-image: url("../images/16x16/app_casc.gif");  */
+  background-image: url("../images/16x16/app_casc.png");      /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-devinfo{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  /*background-image: url("../images/16x16/info.gif");          */
+  background-image: url("../images/16x16/info.png");          /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-resetdev{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/restart.png");       /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-diagnostics{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/diagnostics.png");   /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-diagnostic{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/f_export.png");      /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-about_en{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/information.gif");   /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}
+
+.icon-reload{
+  background-position: 4px 2px;
+  background-repeat: no-repeat;
+  background-image: url("../images/16x16/reload.png");        /** sprite-ref: spritepng; sprite-margin-left: 4px; sprite-margin-top: 2px; */
+}

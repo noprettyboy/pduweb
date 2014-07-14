@@ -1,0 +1,24 @@
+<div id="dataLogHolder">
+  <form id="frdataLog" class="formvalo" method="post">
+    <div>
+      <div class="gengap">
+        <div class="http1l" style="width:150px">{{=it.loginterval}}:</div>
+        <div class="rolen1r">
+          <input class="i1" type="text" id="txtLogInterval" name="txtLogInterval" />
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="gengap">
+        <div class="http1l">&nbsp;</div>
+        <div class="rolen1r">
+          <input type="checkbox" id="chkDatalog"/> &nbsp; {{=it.enablelog}}
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+  </form>
+</div>
+<div id="divDataLogHelp" style="display:none">
+{{=it.illustrateinfo}}
+</div>
+<script type="text/javascript">EL.DataLogSet.init()</script>

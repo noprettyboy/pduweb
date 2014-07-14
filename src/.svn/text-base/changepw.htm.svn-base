@@ -1,0 +1,21 @@
+<div id="changepw_holder">
+  <form id="frchangepw" class="formval" name="httpForm" action="changepw.jsp" method="POST">
+     <ul>
+        <li>
+          <label id="changepsw_result" class="error hide"></label>
+          <label id="spOldPassword">{{=it.oldpass}}:</label>
+          <input class="i1" name="txtOldpassword" id="txtOldpassword" type="password" />
+        </li>
+        <li>
+          <label id="spPassword">{{=it.newpass}}:</label>
+          <input class="i1" name="txtPassword" id="txtPassword" type="password" />
+        </li>
+        <li>
+          <label id="spConfirmPassword">{{=it.cfmpass}}:</label>
+          <input class="i1" name="txtConfirmPassword" id="txtConfirmPassword" type="password" />
+        </li>
+    </ul>
+  </form>
+
+  <script type="text/javascript">EL.ChangePsw()</script>
+</div>

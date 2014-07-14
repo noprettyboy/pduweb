@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Login</title>
+
+		<link href="css/layout.css" rel="stylesheet" type="text/css" /> 
+		<link href="css/forms.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="themes/jquery.ui.all.css" type="text/css" /> 	
+		<link href="css/frm-style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="css/easyui.css" />
+
+		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../js/jquery-ui-1.8.17.custom.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.easyui.min.js"></script>
+
+		<script type="text/javascript" src="../js/jquery.validate.js"></script>
+	</head>
+
+	<body>
+
+		<div id="EditSensorip"> 
+			<form id="frEditSensorip" novalidate="novalidate">
+				<div class="gengap"> 
+					<div class="UsrPnl-7">Lower Critical (A):</div> 
+					<div class="chbx-div">
+						<input type="checkbox" name="rendererLowC" id="rendererLowC" checked="checked">
+					</div>
+					<input type="text" class="iText valid" id="LowerCritical" name="LowerCritical">
+					<label for="LowerCritical" generated="true" class="error"></label>
+					<div class="clear"></div> 
+				</div> 
+				<div class="gengap"> 
+					<div class="UsrPnl-7">Lower Warning (A):</div> 
+					<div class="chbx-div">
+						<input type="checkbox" name="rendererLowW" id="rendererLowW" checked="checked">
+					</div>
+					<input type="text" class="iText valid" id="LowerWarning" name="LowerWarning">
+					<label for="LowerWarning" generated="true" class="error"></label>
+					<div class="clear"></div> 
+				</div> 
+				<div class="gengap"> 
+					<div class="UsrPnl-7">Upper Warning (A):</div> 
+					<div class="chbx-div">
+						<input type="checkbox" name="rendererUpperW" id="rendererUpperW" checked="checked">
+					</div>
+					<input type="text" class="iText" id="UpperWarning" name="UpperWarning">
+					<div class="clear"></div> 
+				</div> 
+				<div class="gengap"> 
+					<div class="UsrPnl-7">Upper Critical (A):</div> 
+					<div class="chbx-div">
+						<input type="checkbox" name="rendererUpperC" id="rendererUpperC" checked="checked">
+					</div>
+					<input type="text" class="iText" id="UpperCritical" name="UpperCritical">
+					<div class="clear"></div> 
+				</div> 
+				<div class="gengap"> 
+					<div class="UsrPnl-7">Reset Threshold (A):</div> 
+					<input type="text" value="1" class="fmtx2" id="deassertion" name="deassertion">
+					<div class="clear"></div> 
+				</div>
+				<div class="gengap"> 
+					<div class="UsrPnl-7">Alarm State Change Delay (samples):</div> 
+					<input type="text" value="0" class="fmtx2" id="assertion" name="assertion">
+					<div class="clear"></div> 
+				</div>
+				<input type="submit" text="submit"/>
+			</form>
+		</div>
+
+
+        <div id="tt" class="easyui-tabs" style="width:500px;height:250px;">  
+            <div title="Tab1" style="padding:20px;display:none;">  
+                tab1  
+            </div>  
+            <div title="Tab2" data-options="closable:true" style="overflow:auto;padding:20px;display:none;">  
+                tab2  
+            </div>  
+            <div title="Tab3" data-options="iconCls:'icon-reload',closable:true" style="padding:20px;display:none;">
+                tab3  
+            </div>  
+        </div>  
+
+	</body>
+
+<script type="text/javascript">
+// validate signup form on keyup and submit
+$.validator.addMethod("domain", function(value, element) {
+	console.log(value, element);
+	return false;
+
+}, "Please specify the correct domain for your documents" );
+
+$("#frEditSensorip").validate({
+	rules: {
+		LowerCritical: {
+			required : {
+				depends: function($el){
+					return $("#rendererLowC").is(":checked");
+				}
+			},
+			domain : true
+		},
+		LowerWarning: {
+			required : true
+		}
+	},
+	messages: {
+		LowerCritical: {
+			required: "Please enter a username"
+		},
+		LowerWarning: {
+			required: "Please provide a password"
+		}
+	},
+	submitHandler: function() { 
+		alert("submitted!");
+	}
+});
+
+$('#tt').tabs(); 
+
+</script>
+
+</html>

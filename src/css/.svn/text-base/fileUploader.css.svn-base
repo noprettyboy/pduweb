@@ -1,0 +1,158 @@
+.px-form-input {
+	float: left;
+	width: 50%;
+}
+.px-buttons {
+	float: right;
+	width: 50%;
+}
+
+.px-input-button {
+	overflow: hidden;
+	width: 98%;
+}
+
+.px-input-button input {
+	position:absolute;
+	top: 0;
+	right: -100px;
+	-moz-opacity:0;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	cursor: pointer;
+	border: 200px solid #FFF;
+	direction: ltr;
+	margin: 0;
+	padding: 0;
+	-o-transform: translate(250px, -50px) scale(1);
+	-moz-transform: translate(-300px, 0) scale(4);
+}
+
+.upload-data {
+	background: #FFF;
+	border: 1px solid #FBD850;
+	margin: 0;
+	min-height: 48px;
+	padding: 5px;
+	position: relative;
+}
+
+.upload-data.pending {
+	border: 1px solid #fbd850;
+}
+
+.upload-data.uploading {
+	border: 1px solid #EDBE05;
+}
+
+.upload-data.success {
+	border: 1px solid #CCCCCC;
+}
+
+.upload-data.error, .upload-data.cancel {
+	border: 1px solid #FF0000;
+}
+
+.px-widget ul.actions {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	margin: 0;
+    padding: 0;
+}
+
+.px-widget ul.actions li {
+	cursor: pointer;
+	float: left;
+	list-style: none outside none;
+	margin: 2px;
+	padding: 4px;
+	position: relative;
+}
+
+.upload-data .filename {
+	padding-right: 10px;
+	width: 120px;
+}
+
+.upload-data .status {
+	clear: both;
+}
+
+/* jQuery UI progressbar */
+.progress {
+	display: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.progressBar {
+	float: left;
+	width: 280px;
+	height: 22px;
+}
+.percentage {
+	float: left;
+	padding-left: 5px;
+	width: 50px;
+}
+.uploading .ui-progressbar-value {
+	background-image: url(ui-lightness/images/pbar-ani.gif);
+}
+
+.px-widget .ui-button {
+	height: 40px;
+}
+
+.px-widget .ui-button:hover {
+	/*background: #d0e5f5 url(images/bglass75.png) 50% 50% repeat-x;*/
+	background-repeat: repeat-x;
+	background-color: #d0e5f5;
+	background-position: 50% 50%;
+	background-image: url(images/bglass75.png);		/** sprite-ref: spritepng;	sprite-alignment: repeat; */
+}
+
+#px-submit,
+#px-clear,
+#px-cancel {
+	float: right;
+	height: 42px;
+	width: 100%;
+}
+
+.px-input-button .ui-button-text {
+	line-height: 32px
+}
+
+#px-submit .ui-button-text,
+#px-clear .ui-button-text,
+#px-cancel .ui-button-text {
+	padding:0 1em 8px 2.1em;
+}
+
+#px-form-1,
+#px-form-2 {
+	background: #fff;
+	border: 1px solid #A4D2FF;
+	border-radius: 5px;
+	min-height: 60px;
+}
+
+.px-widget .ui-icon-circle-triangle-e{
+  background: no-repeat 1px 1px;
+  background-image: url("images/ui-icon-circle-triangle-e.gif");  /** sprite-ref: spritepng;  sprite-margin-top: 1px;  sprite-margin-left: 1px;*/
+ }
+
+.px-widget .ui-icon-circle-minus{
+  background: no-repeat 1px 1px;
+  background-image: url("images/ui-icon-circle-minus.gif");       /** sprite-ref: spritepng;  sprite-margin-top: 1px;  sprite-margin-left: 1px;*/
+ }
+
+.px-widget .ui-icon-circle-plus{
+  background: no-repeat 1px 1px;
+  background-image: url("images/ui-icon-circle-plus.gif");        /** sprite-ref: spritepng;  sprite-margin-top: 1px;  sprite-margin-left: 1px;*/
+ }
+
+.px-widget .ui-icon-arrowthickstop-1-n{
+  background: no-repeat 1px 1px;
+  background-image: url("images/ui-icon-arrowthickstop-1-n.gif"); /** sprite-ref: spritepng;  sprite-margin-top: 1px;  sprite-margin-left: 1px;*/
+ }
